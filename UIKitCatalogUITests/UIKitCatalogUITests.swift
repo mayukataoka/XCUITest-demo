@@ -16,6 +16,7 @@ class UIKitCatalogUITests: UIKitCatalogUITestBase {
     func testButtons() {
         openUIKitCatalog()
         buttonLinkInTable.tap();
+        snapshot("1ButtonCatalogScreen")
         XCTAssert(XCUIApplication().buttons["Button"].exists)
         ukKitCatakogInButtonInNavigationBar.tap();
     }

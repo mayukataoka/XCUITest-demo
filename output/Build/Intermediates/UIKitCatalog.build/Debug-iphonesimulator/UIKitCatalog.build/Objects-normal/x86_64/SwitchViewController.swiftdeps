@@ -1,0 +1,607 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwitchViewController"
+provides-nominal:
+- "C12UIKitCatalog20SwitchViewController"
+provides-member:
+- ["C12UIKitCatalog20SwitchViewController", ""]
+provides-dynamic-lookup:
+- "tintedSwitch"
+- "viewDidLoad"
+- "configureDefaultSwitch"
+- "configureTintedSwitch"
+- "switchValueDidChange"
+- "defaultSwitch"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "NSLog"
+- "UITableViewController"
+- "SwitchViewController"
+- "UISwitch"
+- !private "BooleanLiteralType"
+- !private "UIColor"
+- !private "UnicodeScalarType"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "NSLog"]
+- !private ["Ps9AnyObject", "SwitchViewController"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "addTarget"]
+- !private ["Ps9AnyObject", "applicationBlueColor"]
+- !private ["Ps9AnyObject", "applicationGreenColor"]
+- !private ["Ps9AnyObject", "applicationPurpleColor"]
+- ["Ps9AnyObject", "configureDefaultSwitch"]
+- ["Ps9AnyObject", "configureTintedSwitch"]
+- ["Ps9AnyObject", "defaultSwitch"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "onTintColor"]
+- !private ["Ps9AnyObject", "setOn"]
+- ["Ps9AnyObject", "switchValueDidChange"]
+- !private ["Ps9AnyObject", "thumbTintColor"]
+- !private ["Ps9AnyObject", "tintColor"]
+- ["Ps9AnyObject", "tintedSwitch"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "addTarget"]
+- !private ["PSo15CALayerDelegate", "onTintColor"]
+- !private ["PSo15CALayerDelegate", "setOn"]
+- !private ["PSo15CALayerDelegate", "thumbTintColor"]
+- !private ["PSo15CALayerDelegate", "tintColor"]
+- !private ["Ps7CVarArg", "NSLog"]
+- !private ["Ps7CVarArg", "SwitchViewController"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "addTarget"]
+- !private ["Ps7CVarArg", "applicationBlueColor"]
+- !private ["Ps7CVarArg", "applicationGreenColor"]
+- !private ["Ps7CVarArg", "applicationPurpleColor"]
+- ["Ps7CVarArg", "configureDefaultSwitch"]
+- ["Ps7CVarArg", "configureTintedSwitch"]
+- ["Ps7CVarArg", "defaultSwitch"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "onTintColor"]
+- !private ["Ps7CVarArg", "setOn"]
+- ["Ps7CVarArg", "switchValueDidChange"]
+- !private ["Ps7CVarArg", "thumbTintColor"]
+- !private ["Ps7CVarArg", "tintColor"]
+- ["Ps7CVarArg", "tintedSwitch"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLog"]
+- !private ["Ps28CustomDebugStringConvertible", "SwitchViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "applicationBlueColor"]
+- !private ["Ps28CustomDebugStringConvertible", "applicationGreenColor"]
+- !private ["Ps28CustomDebugStringConvertible", "applicationPurpleColor"]
+- ["Ps28CustomDebugStringConvertible", "configureDefaultSwitch"]
+- ["Ps28CustomDebugStringConvertible", "configureTintedSwitch"]
+- ["Ps28CustomDebugStringConvertible", "defaultSwitch"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "onTintColor"]
+- !private ["Ps28CustomDebugStringConvertible", "setOn"]
+- ["Ps28CustomDebugStringConvertible", "switchValueDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "thumbTintColor"]
+- !private ["Ps28CustomDebugStringConvertible", "tintColor"]
+- ["Ps28CustomDebugStringConvertible", "tintedSwitch"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSLog"]
+- !private ["Ps23CustomStringConvertible", "SwitchViewController"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- !private ["Ps23CustomStringConvertible", "applicationBlueColor"]
+- !private ["Ps23CustomStringConvertible", "applicationGreenColor"]
+- !private ["Ps23CustomStringConvertible", "applicationPurpleColor"]
+- ["Ps23CustomStringConvertible", "configureDefaultSwitch"]
+- ["Ps23CustomStringConvertible", "configureTintedSwitch"]
+- ["Ps23CustomStringConvertible", "defaultSwitch"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "onTintColor"]
+- !private ["Ps23CustomStringConvertible", "setOn"]
+- ["Ps23CustomStringConvertible", "switchValueDidChange"]
+- !private ["Ps23CustomStringConvertible", "thumbTintColor"]
+- !private ["Ps23CustomStringConvertible", "tintColor"]
+- ["Ps23CustomStringConvertible", "tintedSwitch"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "NSLog"]
+- !private ["Ps9Equatable", "SwitchViewController"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "addTarget"]
+- !private ["Ps9Equatable", "applicationBlueColor"]
+- !private ["Ps9Equatable", "applicationGreenColor"]
+- !private ["Ps9Equatable", "applicationPurpleColor"]
+- ["Ps9Equatable", "configureDefaultSwitch"]
+- ["Ps9Equatable", "configureTintedSwitch"]
+- ["Ps9Equatable", "defaultSwitch"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "onTintColor"]
+- !private ["Ps9Equatable", "setOn"]
+- ["Ps9Equatable", "switchValueDidChange"]
+- !private ["Ps9Equatable", "thumbTintColor"]
+- !private ["Ps9Equatable", "tintColor"]
+- ["Ps9Equatable", "tintedSwitch"]
+- !private ["Ps9Equatable", "valueChanged"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "valueChanged"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "NSLog"]
+- !private ["Ps8Hashable", "SwitchViewController"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "addTarget"]
+- !private ["Ps8Hashable", "applicationBlueColor"]
+- !private ["Ps8Hashable", "applicationGreenColor"]
+- !private ["Ps8Hashable", "applicationPurpleColor"]
+- ["Ps8Hashable", "configureDefaultSwitch"]
+- ["Ps8Hashable", "configureTintedSwitch"]
+- ["Ps8Hashable", "defaultSwitch"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "onTintColor"]
+- !private ["Ps8Hashable", "setOn"]
+- ["Ps8Hashable", "switchValueDidChange"]
+- !private ["Ps8Hashable", "thumbTintColor"]
+- !private ["Ps8Hashable", "tintColor"]
+- ["Ps8Hashable", "tintedSwitch"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "NSLog"]
+- !private ["PSo8NSCoding", "SwitchViewController"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "addTarget"]
+- !private ["PSo8NSCoding", "applicationBlueColor"]
+- !private ["PSo8NSCoding", "applicationGreenColor"]
+- !private ["PSo8NSCoding", "applicationPurpleColor"]
+- ["PSo8NSCoding", "configureDefaultSwitch"]
+- ["PSo8NSCoding", "configureTintedSwitch"]
+- ["PSo8NSCoding", "defaultSwitch"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "onTintColor"]
+- !private ["PSo8NSCoding", "setOn"]
+- ["PSo8NSCoding", "switchValueDidChange"]
+- !private ["PSo8NSCoding", "thumbTintColor"]
+- !private ["PSo8NSCoding", "tintColor"]
+- ["PSo8NSCoding", "tintedSwitch"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "applicationBlueColor"]
+- !private ["PSo9NSCopying", "applicationGreenColor"]
+- !private ["PSo9NSCopying", "applicationPurpleColor"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "NSLog"]
+- !private ["PSo26NSExtensionRequestHandling", "SwitchViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- ["PSo26NSExtensionRequestHandling", "configureDefaultSwitch"]
+- ["PSo26NSExtensionRequestHandling", "configureTintedSwitch"]
+- ["PSo26NSExtensionRequestHandling", "defaultSwitch"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "switchValueDidChange"]
+- ["PSo26NSExtensionRequestHandling", "tintedSwitch"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "NSLog"]
+- !private ["CSo8NSObject", "SwitchViewController"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UISwitch"]
+- !private ["CSo8NSObject", "addTarget"]
+- !private ["CSo8NSObject", "applicationBlueColor"]
+- !private ["CSo8NSObject", "applicationGreenColor"]
+- !private ["CSo8NSObject", "applicationPurpleColor"]
+- ["CSo8NSObject", "configureDefaultSwitch"]
+- ["CSo8NSObject", "configureTintedSwitch"]
+- ["CSo8NSObject", "defaultSwitch"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "onTintColor"]
+- !private ["CSo8NSObject", "setOn"]
+- ["CSo8NSObject", "switchValueDidChange"]
+- !private ["CSo8NSObject", "thumbTintColor"]
+- !private ["CSo8NSObject", "tintColor"]
+- ["CSo8NSObject", "tintedSwitch"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "NSLog"]
+- !private ["PSo16NSObjectProtocol", "SwitchViewController"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "applicationBlueColor"]
+- !private ["PSo16NSObjectProtocol", "applicationGreenColor"]
+- !private ["PSo16NSObjectProtocol", "applicationPurpleColor"]
+- ["PSo16NSObjectProtocol", "configureDefaultSwitch"]
+- ["PSo16NSObjectProtocol", "configureTintedSwitch"]
+- ["PSo16NSObjectProtocol", "defaultSwitch"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "onTintColor"]
+- !private ["PSo16NSObjectProtocol", "setOn"]
+- ["PSo16NSObjectProtocol", "switchValueDidChange"]
+- !private ["PSo16NSObjectProtocol", "thumbTintColor"]
+- !private ["PSo16NSObjectProtocol", "tintColor"]
+- ["PSo16NSObjectProtocol", "tintedSwitch"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "applicationBlueColor"]
+- !private ["PSo14NSSecureCoding", "applicationGreenColor"]
+- !private ["PSo14NSSecureCoding", "applicationPurpleColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "valueChanged"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "valueChanged"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps10SetAlgebra", "valueChanged"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["C12UIKitCatalog20SwitchViewController", "NSLog"]
+- !private ["C12UIKitCatalog20SwitchViewController", "SwitchViewController"]
+- !private ["C12UIKitCatalog20SwitchViewController", "UIColor"]
+- ["C12UIKitCatalog20SwitchViewController", "UISwitch"]
+- ["C12UIKitCatalog20SwitchViewController", "configureDefaultSwitch"]
+- ["C12UIKitCatalog20SwitchViewController", "configureTintedSwitch"]
+- ["C12UIKitCatalog20SwitchViewController", "defaultSwitch"]
+- ["C12UIKitCatalog20SwitchViewController", "deinit"]
+- ["C12UIKitCatalog20SwitchViewController", "init"]
+- ["C12UIKitCatalog20SwitchViewController", "switchValueDidChange"]
+- ["C12UIKitCatalog20SwitchViewController", "tintedSwitch"]
+- ["C12UIKitCatalog20SwitchViewController", "viewDidLoad"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addTarget"]
+- !private ["PSo29UIAccessibilityIdentification", "onTintColor"]
+- !private ["PSo29UIAccessibilityIdentification", "setOn"]
+- !private ["PSo29UIAccessibilityIdentification", "thumbTintColor"]
+- !private ["PSo29UIAccessibilityIdentification", "tintColor"]
+- !private ["PSo12UIAppearance", "addTarget"]
+- !private ["PSo12UIAppearance", "onTintColor"]
+- !private ["PSo12UIAppearance", "setOn"]
+- !private ["PSo12UIAppearance", "thumbTintColor"]
+- !private ["PSo12UIAppearance", "tintColor"]
+- !private ["PSo21UIAppearanceContainer", "NSLog"]
+- !private ["PSo21UIAppearanceContainer", "SwitchViewController"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "addTarget"]
+- ["PSo21UIAppearanceContainer", "configureDefaultSwitch"]
+- ["PSo21UIAppearanceContainer", "configureTintedSwitch"]
+- ["PSo21UIAppearanceContainer", "defaultSwitch"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "onTintColor"]
+- !private ["PSo21UIAppearanceContainer", "setOn"]
+- ["PSo21UIAppearanceContainer", "switchValueDidChange"]
+- !private ["PSo21UIAppearanceContainer", "thumbTintColor"]
+- !private ["PSo21UIAppearanceContainer", "tintColor"]
+- ["PSo21UIAppearanceContainer", "tintedSwitch"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "applicationBlueColor"]
+- !private ["CSo7UIColor", "applicationGreenColor"]
+- !private ["CSo7UIColor", "applicationPurpleColor"]
+- ["CSo7UIColor", "deinit"]
+- !private ["PSo18UIContentContainer", "NSLog"]
+- !private ["PSo18UIContentContainer", "SwitchViewController"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- ["PSo18UIContentContainer", "configureDefaultSwitch"]
+- ["PSo18UIContentContainer", "configureTintedSwitch"]
+- ["PSo18UIContentContainer", "defaultSwitch"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "switchValueDidChange"]
+- ["PSo18UIContentContainer", "tintedSwitch"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "addTarget"]
+- !private ["CSo9UIControl", "onTintColor"]
+- !private ["CSo9UIControl", "setOn"]
+- !private ["CSo9UIControl", "thumbTintColor"]
+- !private ["CSo9UIControl", "tintColor"]
+- ["VSC15UIControlEvents", "deinit"]
+- !private ["VSC15UIControlEvents", "valueChanged"]
+- !private ["PSo17UICoordinateSpace", "addTarget"]
+- !private ["PSo17UICoordinateSpace", "onTintColor"]
+- !private ["PSo17UICoordinateSpace", "setOn"]
+- !private ["PSo17UICoordinateSpace", "thumbTintColor"]
+- !private ["PSo17UICoordinateSpace", "tintColor"]
+- !private ["PSo13UIDynamicItem", "addTarget"]
+- !private ["PSo13UIDynamicItem", "onTintColor"]
+- !private ["PSo13UIDynamicItem", "setOn"]
+- !private ["PSo13UIDynamicItem", "thumbTintColor"]
+- !private ["PSo13UIDynamicItem", "tintColor"]
+- !private ["PSo18UIFocusEnvironment", "NSLog"]
+- !private ["PSo18UIFocusEnvironment", "SwitchViewController"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- ["PSo18UIFocusEnvironment", "configureDefaultSwitch"]
+- ["PSo18UIFocusEnvironment", "configureTintedSwitch"]
+- ["PSo18UIFocusEnvironment", "defaultSwitch"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "onTintColor"]
+- !private ["PSo18UIFocusEnvironment", "setOn"]
+- ["PSo18UIFocusEnvironment", "switchValueDidChange"]
+- !private ["PSo18UIFocusEnvironment", "thumbTintColor"]
+- !private ["PSo18UIFocusEnvironment", "tintColor"]
+- ["PSo18UIFocusEnvironment", "tintedSwitch"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addTarget"]
+- !private ["PSo11UIFocusItem", "onTintColor"]
+- !private ["PSo11UIFocusItem", "setOn"]
+- !private ["PSo11UIFocusItem", "thumbTintColor"]
+- !private ["PSo11UIFocusItem", "tintColor"]
+- !private ["CSo11UIResponder", "NSLog"]
+- !private ["CSo11UIResponder", "SwitchViewController"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UISwitch"]
+- !private ["CSo11UIResponder", "addTarget"]
+- ["CSo11UIResponder", "configureDefaultSwitch"]
+- ["CSo11UIResponder", "configureTintedSwitch"]
+- ["CSo11UIResponder", "defaultSwitch"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "onTintColor"]
+- !private ["CSo11UIResponder", "setOn"]
+- ["CSo11UIResponder", "switchValueDidChange"]
+- !private ["CSo11UIResponder", "thumbTintColor"]
+- !private ["CSo11UIResponder", "tintColor"]
+- ["CSo11UIResponder", "tintedSwitch"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "NSLog"]
+- !private ["PSo30UIResponderStandardEditActions", "SwitchViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "addTarget"]
+- ["PSo30UIResponderStandardEditActions", "configureDefaultSwitch"]
+- ["PSo30UIResponderStandardEditActions", "configureTintedSwitch"]
+- ["PSo30UIResponderStandardEditActions", "defaultSwitch"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "onTintColor"]
+- !private ["PSo30UIResponderStandardEditActions", "setOn"]
+- ["PSo30UIResponderStandardEditActions", "switchValueDidChange"]
+- !private ["PSo30UIResponderStandardEditActions", "thumbTintColor"]
+- !private ["PSo30UIResponderStandardEditActions", "tintColor"]
+- ["PSo30UIResponderStandardEditActions", "tintedSwitch"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "NSLog"]
+- !private ["PSo20UIScrollViewDelegate", "SwitchViewController"]
+- !private ["PSo20UIScrollViewDelegate", "UIColor"]
+- ["PSo20UIScrollViewDelegate", "configureDefaultSwitch"]
+- ["PSo20UIScrollViewDelegate", "configureTintedSwitch"]
+- ["PSo20UIScrollViewDelegate", "defaultSwitch"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- ["PSo20UIScrollViewDelegate", "switchValueDidChange"]
+- ["PSo20UIScrollViewDelegate", "tintedSwitch"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "NSLog"]
+- !private ["PSo16UIStateRestoring", "SwitchViewController"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- ["PSo16UIStateRestoring", "configureDefaultSwitch"]
+- ["PSo16UIStateRestoring", "configureTintedSwitch"]
+- ["PSo16UIStateRestoring", "defaultSwitch"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "switchValueDidChange"]
+- ["PSo16UIStateRestoring", "tintedSwitch"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo8UISwitch", "addTarget"]
+- ["CSo8UISwitch", "deinit"]
+- !private ["CSo8UISwitch", "onTintColor"]
+- !private ["CSo8UISwitch", "setOn"]
+- !private ["CSo8UISwitch", "thumbTintColor"]
+- !private ["CSo8UISwitch", "tintColor"]
+- !private ["CSo21UITableViewController", "NSLog"]
+- !private ["CSo21UITableViewController", "SwitchViewController"]
+- !private ["CSo21UITableViewController", "UIColor"]
+- ["CSo21UITableViewController", "UISwitch"]
+- ["CSo21UITableViewController", "configureDefaultSwitch"]
+- ["CSo21UITableViewController", "configureTintedSwitch"]
+- ["CSo21UITableViewController", "defaultSwitch"]
+- ["CSo21UITableViewController", "deinit"]
+- ["CSo21UITableViewController", "init"]
+- ["CSo21UITableViewController", "switchValueDidChange"]
+- ["CSo21UITableViewController", "tintedSwitch"]
+- ["CSo21UITableViewController", "viewDidLoad"]
+- ["CSo21UITableViewController", ""]
+- !private ["PSo21UITableViewDataSource", "NSLog"]
+- !private ["PSo21UITableViewDataSource", "SwitchViewController"]
+- !private ["PSo21UITableViewDataSource", "UIColor"]
+- ["PSo21UITableViewDataSource", "configureDefaultSwitch"]
+- ["PSo21UITableViewDataSource", "configureTintedSwitch"]
+- ["PSo21UITableViewDataSource", "defaultSwitch"]
+- !private ["PSo21UITableViewDataSource", "init"]
+- ["PSo21UITableViewDataSource", "switchValueDidChange"]
+- ["PSo21UITableViewDataSource", "tintedSwitch"]
+- ["PSo21UITableViewDataSource", "viewDidLoad"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "NSLog"]
+- !private ["PSo19UITableViewDelegate", "SwitchViewController"]
+- !private ["PSo19UITableViewDelegate", "UIColor"]
+- ["PSo19UITableViewDelegate", "configureDefaultSwitch"]
+- ["PSo19UITableViewDelegate", "configureTintedSwitch"]
+- ["PSo19UITableViewDelegate", "defaultSwitch"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- ["PSo19UITableViewDelegate", "switchValueDidChange"]
+- ["PSo19UITableViewDelegate", "tintedSwitch"]
+- ["PSo19UITableViewDelegate", "viewDidLoad"]
+- ["PSo19UITableViewDelegate", ""]
+- ["OSC16UITableViewStyle", "deinit"]
+- !private ["PSo18UITraitEnvironment", "NSLog"]
+- !private ["PSo18UITraitEnvironment", "SwitchViewController"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "addTarget"]
+- ["PSo18UITraitEnvironment", "configureDefaultSwitch"]
+- ["PSo18UITraitEnvironment", "configureTintedSwitch"]
+- ["PSo18UITraitEnvironment", "defaultSwitch"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "onTintColor"]
+- !private ["PSo18UITraitEnvironment", "setOn"]
+- ["PSo18UITraitEnvironment", "switchValueDidChange"]
+- !private ["PSo18UITraitEnvironment", "thumbTintColor"]
+- !private ["PSo18UITraitEnvironment", "tintColor"]
+- ["PSo18UITraitEnvironment", "tintedSwitch"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addTarget"]
+- !private ["CSo6UIView", "onTintColor"]
+- !private ["CSo6UIView", "setOn"]
+- !private ["CSo6UIView", "thumbTintColor"]
+- !private ["CSo6UIView", "tintColor"]
+- !private ["CSo16UIViewController", "NSLog"]
+- !private ["CSo16UIViewController", "SwitchViewController"]
+- !private ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "UISwitch"]
+- ["CSo16UIViewController", "configureDefaultSwitch"]
+- ["CSo16UIViewController", "configureTintedSwitch"]
+- ["CSo16UIViewController", "defaultSwitch"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "switchValueDidChange"]
+- ["CSo16UIViewController", "tintedSwitch"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addTarget"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "onTintColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setOn"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "thumbTintColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tintColor"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "applicationBlueColor"]
+- !private ["Ps26_ExpressibleByColorLiteral", "applicationGreenColor"]
+- !private ["Ps26_ExpressibleByColorLiteral", "applicationPurpleColor"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSLog"]
+- !private ["Ps9_Hashable", "SwitchViewController"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "addTarget"]
+- !private ["Ps9_Hashable", "applicationBlueColor"]
+- !private ["Ps9_Hashable", "applicationGreenColor"]
+- !private ["Ps9_Hashable", "applicationPurpleColor"]
+- ["Ps9_Hashable", "configureDefaultSwitch"]
+- ["Ps9_Hashable", "configureTintedSwitch"]
+- ["Ps9_Hashable", "defaultSwitch"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "onTintColor"]
+- !private ["Ps9_Hashable", "setOn"]
+- ["Ps9_Hashable", "switchValueDidChange"]
+- !private ["Ps9_Hashable", "thumbTintColor"]
+- !private ["Ps9_Hashable", "tintColor"]
+- ["Ps9_Hashable", "tintedSwitch"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "V10ObjectiveC8Selector"
+- !private "Ps10SetAlgebra"
+- "SS"
+- "C12UIKitCatalog20SwitchViewController"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- "VSC15UIControlEvents"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "CSo8UISwitch"
+- "CSo21UITableViewController"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "OSC16UITableViewStyle"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "93e4b5defb28ea721191219aeaff7034"

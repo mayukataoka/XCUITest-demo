@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "e6d9054b409d59fbc7de956b3ba4bbf6"
+build_time: [534066502, 165646000]
+inputs:
+  "/Users/mumpiko/dev/XCUITest/XCUITest-demo/UIKitCatalogUITests/UIKitCatalogUITestBase.swift": [534057770, 0]
+  "/Users/mumpiko/dev/XCUITest/XCUITest-demo/UIKitCatalogUITests/UIKitCatalogUITests.swift": [534055163, 0]

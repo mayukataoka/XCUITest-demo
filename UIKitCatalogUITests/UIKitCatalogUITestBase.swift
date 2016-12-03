@@ -17,7 +17,9 @@ class UIKitCatalogUITestBase: XCTestCase {
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
+        setupSnapshot(app)
         XCUIApplication().launch()
+        
     }
     
     override func tearDown() {

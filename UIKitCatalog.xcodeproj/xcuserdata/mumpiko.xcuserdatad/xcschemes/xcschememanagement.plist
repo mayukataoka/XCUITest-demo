@@ -9,7 +9,7 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>UIKitCatalogUITests.xcscheme</key>
+		<key>UIKitCatalogUITest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -18,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>228DB9F218BC53F1002BA12A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2EB7203A1DF2C79200774062</key>
 		<dict>
 			<key>primary</key>
 			<true/>

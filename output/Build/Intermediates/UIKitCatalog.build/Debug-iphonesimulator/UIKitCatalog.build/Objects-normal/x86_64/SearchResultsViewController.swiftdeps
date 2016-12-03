@@ -1,0 +1,345 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SearchResultsViewController"
+provides-nominal:
+- "C12UIKitCatalog27SearchResultsViewController"
+- "VC12UIKitCatalog27SearchResultsViewController19StoryboardConstants"
+provides-member:
+- ["C12UIKitCatalog27SearchResultsViewController", ""]
+- ["VC12UIKitCatalog27SearchResultsViewController19StoryboardConstants", ""]
+provides-dynamic-lookup:
+- "updateSearchResults"
+depends-top-level:
+- "SearchResultsViewController"
+- "StringLiteralType"
+- "SearchControllerBaseViewController"
+- "AssignmentPrecedence"
+- "UISearchResultsUpdating"
+- "UISearchController"
+depends-member:
+- !private ["Ps9AnyObject", "filterString"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isActive"]
+- !private ["Ps9AnyObject", "searchBar"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "updateSearchResults"]
+- ["Ps9AnyObject", "updateSearchResultsForSearchController"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "filterString"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isActive"]
+- !private ["Ps7CVarArg", "searchBar"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "updateSearchResults"]
+- ["Ps7CVarArg", "updateSearchResultsForSearchController"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "filterString"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isActive"]
+- !private ["Ps28CustomDebugStringConvertible", "searchBar"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "updateSearchResults"]
+- ["Ps28CustomDebugStringConvertible", "updateSearchResultsForSearchController"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "filterString"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isActive"]
+- !private ["Ps23CustomStringConvertible", "searchBar"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "updateSearchResults"]
+- ["Ps23CustomStringConvertible", "updateSearchResultsForSearchController"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "filterString"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isActive"]
+- !private ["Ps9Equatable", "searchBar"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "updateSearchResults"]
+- ["Ps9Equatable", "updateSearchResultsForSearchController"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "filterString"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isActive"]
+- !private ["Ps8Hashable", "searchBar"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "updateSearchResults"]
+- ["Ps8Hashable", "updateSearchResultsForSearchController"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "filterString"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isActive"]
+- !private ["PSo8NSCoding", "searchBar"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "updateSearchResults"]
+- ["PSo8NSCoding", "updateSearchResultsForSearchController"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "filterString"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isActive"]
+- !private ["PSo26NSExtensionRequestHandling", "searchBar"]
+- ["PSo26NSExtensionRequestHandling", "updateSearchResults"]
+- ["PSo26NSExtensionRequestHandling", "updateSearchResultsForSearchController"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "UISearchController"]
+- !private ["CSo8NSObject", "filterString"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isActive"]
+- !private ["CSo8NSObject", "searchBar"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "updateSearchResults"]
+- ["CSo8NSObject", "updateSearchResultsForSearchController"]
+- !private ["PSo16NSObjectProtocol", "filterString"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isActive"]
+- !private ["PSo16NSObjectProtocol", "searchBar"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "updateSearchResults"]
+- ["PSo16NSObjectProtocol", "updateSearchResultsForSearchController"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["C12UIKitCatalog34SearchControllerBaseViewController", "UISearchController"]
+- ["C12UIKitCatalog34SearchControllerBaseViewController", "deinit"]
+- !private ["C12UIKitCatalog34SearchControllerBaseViewController", "filterString"]
+- ["C12UIKitCatalog34SearchControllerBaseViewController", "init"]
+- ["C12UIKitCatalog34SearchControllerBaseViewController", "updateSearchResults"]
+- ["C12UIKitCatalog34SearchControllerBaseViewController", "updateSearchResultsForSearchController"]
+- ["C12UIKitCatalog34SearchControllerBaseViewController", ""]
+- ["C12UIKitCatalog27SearchResultsViewController", "StoryboardConstants"]
+- ["C12UIKitCatalog27SearchResultsViewController", "UISearchController"]
+- ["C12UIKitCatalog27SearchResultsViewController", "deinit"]
+- !private ["C12UIKitCatalog27SearchResultsViewController", "filterString"]
+- ["C12UIKitCatalog27SearchResultsViewController", "init"]
+- ["C12UIKitCatalog27SearchResultsViewController", "updateSearchResults"]
+- ["C12UIKitCatalog27SearchResultsViewController", "updateSearchResultsForSearchController"]
+- ["VC12UIKitCatalog27SearchResultsViewController19StoryboardConstants", "identifier"]
+- ["VC12UIKitCatalog27SearchResultsViewController19StoryboardConstants", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "filterString"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isActive"]
+- !private ["PSo21UIAppearanceContainer", "searchBar"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateSearchResults"]
+- ["PSo21UIAppearanceContainer", "updateSearchResultsForSearchController"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo16UIBarPositioning", "text"]
+- !private ["PSo18UIContentContainer", "filterString"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isActive"]
+- !private ["PSo18UIContentContainer", "searchBar"]
+- ["PSo18UIContentContainer", "updateSearchResults"]
+- ["PSo18UIContentContainer", "updateSearchResultsForSearchController"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "filterString"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isActive"]
+- !private ["PSo18UIFocusEnvironment", "searchBar"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateSearchResults"]
+- ["PSo18UIFocusEnvironment", "updateSearchResultsForSearchController"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- ["CSo11UIResponder", "UISearchController"]
+- !private ["CSo11UIResponder", "filterString"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isActive"]
+- !private ["CSo11UIResponder", "searchBar"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateSearchResults"]
+- ["CSo11UIResponder", "updateSearchResultsForSearchController"]
+- !private ["PSo30UIResponderStandardEditActions", "filterString"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isActive"]
+- !private ["PSo30UIResponderStandardEditActions", "searchBar"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "updateSearchResults"]
+- ["PSo30UIResponderStandardEditActions", "updateSearchResultsForSearchController"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "filterString"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- ["PSo20UIScrollViewDelegate", "updateSearchResults"]
+- ["PSo20UIScrollViewDelegate", "updateSearchResultsForSearchController"]
+- ["PSo20UIScrollViewDelegate", ""]
+- ["CSo11UISearchBar", "deinit"]
+- !private ["CSo11UISearchBar", "text"]
+- ["CSo18UISearchController", "deinit"]
+- !private ["CSo18UISearchController", "isActive"]
+- !private ["CSo18UISearchController", "searchBar"]
+- !private ["PSo23UISearchResultsUpdating", "filterString"]
+- ["PSo23UISearchResultsUpdating", "updateSearchResults"]
+- ["PSo23UISearchResultsUpdating", "updateSearchResultsForSearchController"]
+- ["PSo23UISearchResultsUpdating", ""]
+- !private ["PSo16UIStateRestoring", "filterString"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isActive"]
+- !private ["PSo16UIStateRestoring", "searchBar"]
+- ["PSo16UIStateRestoring", "updateSearchResults"]
+- ["PSo16UIStateRestoring", "updateSearchResultsForSearchController"]
+- ["PSo16UIStateRestoring", ""]
+- ["CSo21UITableViewController", "UISearchController"]
+- !private ["CSo21UITableViewController", "filterString"]
+- ["CSo21UITableViewController", "init"]
+- ["CSo21UITableViewController", "updateSearchResults"]
+- ["CSo21UITableViewController", "updateSearchResultsForSearchController"]
+- !private ["PSo21UITableViewDataSource", "filterString"]
+- !private ["PSo21UITableViewDataSource", "init"]
+- ["PSo21UITableViewDataSource", "updateSearchResults"]
+- ["PSo21UITableViewDataSource", "updateSearchResultsForSearchController"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "filterString"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- ["PSo19UITableViewDelegate", "updateSearchResults"]
+- ["PSo19UITableViewDelegate", "updateSearchResultsForSearchController"]
+- ["PSo19UITableViewDelegate", ""]
+- ["OSC16UITableViewStyle", "deinit"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "filterString"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isActive"]
+- !private ["PSo18UITraitEnvironment", "searchBar"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateSearchResults"]
+- ["PSo18UITraitEnvironment", "updateSearchResultsForSearchController"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "UISearchController"]
+- !private ["CSo16UIViewController", "filterString"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "isActive"]
+- !private ["CSo16UIViewController", "searchBar"]
+- ["CSo16UIViewController", "updateSearchResults"]
+- ["CSo16UIViewController", "updateSearchResultsForSearchController"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "isActive"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "searchBar"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "isActive"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "searchBar"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "filterString"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isActive"]
+- !private ["Ps9_Hashable", "searchBar"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "updateSearchResults"]
+- ["Ps9_Hashable", "updateSearchResultsForSearchController"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- "C12UIKitCatalog34SearchControllerBaseViewController"
+- "C12UIKitCatalog27SearchResultsViewController"
+- "VC12UIKitCatalog27SearchResultsViewController19StoryboardConstants"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo16UIBarPositioning"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo20UIScrollViewDelegate"
+- "CSo11UISearchBar"
+- "CSo18UISearchController"
+- "PSo23UISearchResultsUpdating"
+- "PSo16UIStateRestoring"
+- "CSo21UITableViewController"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "OSC16UITableViewStyle"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSo37UIViewControllerAnimatedTransitioning"
+- !private "PSo37UIViewControllerTransitioningDelegate"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "195c30685de63d90825ca80da74fb051"
