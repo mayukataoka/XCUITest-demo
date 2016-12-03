@@ -15,5 +15,5 @@ or
 [14:52:01]: Generating HTML Report
 [14:52:01]: Successfully created HTML file with an overview of all the screenshots: '/Users/mk/dev/XCUITest/XCUITest-demo/screenshots/screenshots.html'
 
-<img src="testSummary.png" width="500">
+<img src="assets/testSummary.png" width="500">
 
