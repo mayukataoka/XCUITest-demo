@@ -1,0 +1,452 @@
+20:50:49.006 xcodebuild[6555:82863] Beginning test session UIKitCatalogUITest-693E87BC-C20C-4ECF-85FD-F48DB6C90AD4 at 2016-12-10 20:50:49.003 with Xcode 8B62 on target <DVTiPhoneSimulator: 0x7fcd3be25890> {
+		SimDevice: SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }
+} (10.1 (14B72))
+20:50:49.007 xcodebuild[6555:82863] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-workspace
+UIKitCatalog.xcworkspace
+-scheme
+UIKitCatalogUITest
+-destination
+platform=iOS Simulator,name=iPhone 6,OS=10.1
+-derivedDataPath
+./output
+test
+20:50:49.007 xcodebuild[6555:82863] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+20:50:49.010 xcodebuild[6555:82863] Initializing test infrastructure.
+20:50:49.010 xcodebuild[6555:82866] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Registered for sim device notification, got token 4
+20:50:49.010 xcodebuild[6555:82866] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Unregistering for sim device notification with token 4
+20:50:49.010 xcodebuild[6555:82866] Sim iPhone 6 is booted (state = 3)
+20:50:49.010 xcodebuild[6555:82866] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+20:50:49.011 xcodebuild[6555:82866] Returning /private/tmp/com.apple.launchd.hoMoXJZo9F/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+20:50:49.011 xcodebuild[6555:82866] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.hoMoXJZo9F/com.apple.testmanagerd.unix-domain.socket
+20:50:49.011 xcodebuild[6555:82866] Connected socket 15 to testmanagerd for Sim iPhone 6
+20:50:49.011 xcodebuild[6555:82866] Creating the test bundle connection.
+20:50:49.012 xcodebuild[6555:82866] Listening for proxy connection request from the test bundle (all platforms)
+20:50:49.012 xcodebuild[6555:82866] Resuming the connection.
+20:50:49.013 xcodebuild[6555:82866] Test connection requires daemon assistance.
+20:50:49.019 xcodebuild[6555:82863] Received Ready from iOSSimulator
+20:50:49.019 xcodebuild[6555:82863] Sending notification: NSConcreteNotification 0x7fcd3bf7a9c0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+}}
+20:50:49.218 xcodebuild[6555:82863] Starting test session with ID 693E87BC-C20C-4ECF-85FD-F48DB6C90AD4
+20:50:49.219 xcodebuild[6555:82863] Checking test manager availability..., will wait up to 120s
+20:50:49.233 xcodebuild[6555:82863] Launch session started, setting a disallow-finish-token on the run operation.
+20:50:49.240 xcodebuild[6555:82863] Received Ready from iOSSimulator
+20:50:49.241 xcodebuild[6555:82863] Sending notification: NSConcreteNotification 0x7fcd3bfecfb0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+}}
+20:50:49.243 xcodebuild[6555:82863] Adding console adaptor <IDEConsoleAdaptor: 0x7fcd3bfbab40 'target'> for test session 693E87BC-C20C-4ECF-85FD-F48DB6C90AD4.
+20:50:49.248 xcodebuild[6555:82937] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Registered for sim device notification, got token 5
+20:50:49.249 xcodebuild[6555:82865] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Unregistering for sim device notification with token 5
+20:50:49.249 xcodebuild[6555:82863] Received Ready from iOSSimulator
+20:50:49.250 xcodebuild[6555:82863] Sending notification: NSConcreteNotification 0x7fcd3bfcae50 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+}}
+20:50:49.251 xcodebuild[6555:82938] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Installing app at path: /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalogUITest-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.UIKitCatalogUITest-Runner";
+}
+20:50:49.800 xcodebuild[6555:82939] testmanagerd handled session request.
+20:50:49.801 xcodebuild[6555:82863] Waiting for test process to launch.
+20:50:53.178 xcodebuild[6555:82938] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Installed app at path: /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalogUITest-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.UIKitCatalogUITest-Runner";
+}
+20:50:53.185 xcodebuild[6555:82938] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Registered for sim device notification, got token 6
+20:50:53.187 xcodebuild[6555:82939] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Unregistering for sim device notification with token 6
+20:50:53.187 xcodebuild[6555:82863] Received Ready from iOSSimulator
+20:50:53.187 xcodebuild[6555:82863] Sending notification: NSConcreteNotification 0x7fcd3c0f9030 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+}}
+20:50:53.351 xcodebuild[6555:82938] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Launching app with identifier: com.apple.test.UIKitCatalogUITest-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_LIBRARY_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/p4/_x58z1jn5bbgtyw2kr_wr3mw0000gn/T/com.apple.dt.XCTest/693E87BC-C20C-4ECF-85FD-F48DB6C90AD4/remote-container/tmp/UIKitCatalogUITest-693E87BC-C20C-4ECF-85FD-F48DB6C90AD4.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 0;
+}
+20:50:53.417 xcodebuild[6555:83016] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Launched app with identifier: com.apple.test.UIKitCatalogUITest-Runner (pid = 6566)
+20:50:53.417 xcodebuild[6555:83016] Tracking pid 6566 for simulator <DVTiPhoneSimulator: 0x7fcd3be25890> {
+		SimDevice: SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }
+}
+20:50:53.417 xcodebuild[6555:83016] Checking to see if pid 6566 is valid: kill(pid, 0) = 0 (YES, it's still running)
+20:50:53.417 xcodebuild[6555:83016] Setting up DVTNotifyOnProcDeath for pid 6566
+20:50:53.418 xcodebuild[6555:82863] Test process runnable PID is 6566.
+20:50:54.118 xcodebuild[6555:82937] Got proxy channel request from test bundle
+20:50:54.119 xcodebuild[6555:82937] Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+20:50:54.119 xcodebuild[6555:82939] Creating secondary transport and connection for whitelisting test process PID.
+20:50:54.119 xcodebuild[6555:82939] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Registered for sim device notification, got token 7
+20:50:54.119 xcodebuild[6555:82939] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Unregistering for sim device notification with token 7
+20:50:54.119 xcodebuild[6555:82939] Sim iPhone 6 is booted (state = 3)
+20:50:54.119 xcodebuild[6555:82939] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+20:50:54.120 xcodebuild[6555:82939] Returning /private/tmp/com.apple.launchd.hoMoXJZo9F/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+20:50:54.120 xcodebuild[6555:82939] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.hoMoXJZo9F/com.apple.testmanagerd.unix-domain.socket
+20:50:54.120 xcodebuild[6555:82939] Connected socket 23 to testmanagerd for Sim iPhone 6
+20:50:54.120 xcodebuild[6555:82939] Creating the daemon control connection.
+20:50:54.120 xcodebuild[6555:82939] Resuming the secondary connection.
+20:50:54.121 xcodebuild[6555:82939] Whitelisting test process ID 6566
+20:50:54.126 xcodebuild[6555:83016] Got whitelisting response and daemon protocol version 22
+20:50:49.779 testmanagerd[6560:82929] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, built at Thursday, October 13, 2016 at 8:29:37 AM Pacific Daylight Time
+20:50:49.786 testmanagerd[6560:83001] IDE connected over socket 5 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+20:50:49.786 testmanagerd[6560:82929] Setting availability state.
+20:50:49.787 testmanagerd[6560:83001] Created session with socket 5
+20:50:49.788 testmanagerd[6560:82929] Posting availability to test bundles...
+20:50:49.795 testmanagerd[6560:83006] Handled a proxy request from the IDE with session <XCIDESession: 0x7f87f140a040> proxy <_DTXProxy: 0x7f87f1531a20>
+20:50:49.797 testmanagerd[6560:82929] __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 693E87BC-C20C-4ECF-85FD-F48DB6C90AD4 1 5 from client 6C5D3653-2530-4E53-9E08-312270EDBDA9-6555-000008BE0BF79C3E (/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild)
+20:50:49.798 testmanagerd[6560:83006] __45-[XCTestManager setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f87f140a040> -> 693E87BC-C20C-4ECF-85FD-F48DB6C90AD4
+20:50:49.798 testmanagerd[6560:83006] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+20:50:53.938 testmanagerd[6560:83007] Received new test session connection (-[XCTestManager listener:shouldAcceptNewConnection:])
+20:50:54.128 testmanagerd[6560:82929] Received request to collect crash reports in directories '/Users/mumpiko/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'UIKitCatalogUITest-Runner', 'UIKitCatalog', 'xctest', 'XCTRunner'
+20:50:53.939 testmanagerd[6560:82929] Initial orientation 0
+20:50:54.129 testmanagerd[6560:82929] Initializing crash report observer for /Users/mumpiko/Library/Logs/DiagnosticReports
+20:50:53.942 testmanagerd[6560:83006] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.apple.test.UIKitCatalogUITest-Runner";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 6566;
+    SBMostElevatedStateForProcessID = 8;
+}
+20:50:53.942 testmanagerd[6560:83008] Test session 693E87BC-C20C-4ECF-85FD-F48DB6C90AD4 requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+20:50:54.130 testmanagerd[6560:82929] Getting files in /Users/mumpiko/Library/Logs/DiagnosticReports
+20:50:53.942 testmanagerd[6560:83006] Got request for process assertion for pid 6566.
+20:50:53.943 testmanagerd[6560:83072] Test session 693E87BC-C20C-4ECF-85FD-F48DB6C90AD4 requested socket (__57-[XCTestManager requestSocketForSessionIdentifier:reply:]_block_invoke)
+20:50:54.132 testmanagerd[6560:82929] Found 13 files in /Users/mumpiko/Library/Logs/DiagnosticReports
+20:50:53.944 testmanagerd[6560:83006] Created process assertion for pid 6566: <BKSProcessAssertion: 0x7f87f1541690>, waiting for response from assertiond.
+20:50:53.944 testmanagerd[6560:83072] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+20:50:53.945 testmanagerd[6560:83006] Starting to monitor com.apple.test.UIKitCatalogUITest-Runner
+20:50:54.134 testmanagerd[6560:82929] Started monitoring /Users/mumpiko/Library/Logs/DiagnosticReports
+20:50:54.135 testmanagerd[6560:82929] Initializing crash report observer for /Library/Logs/DiagnosticReports
+20:50:53.946 testmanagerd[6560:83072] Closing IDE connection before sending socket 7 to test host.
+20:50:54.136 testmanagerd[6560:82929] Getting files in /Library/Logs/DiagnosticReports
+20:50:53.947 testmanagerd[6560:83072] -[XCIDESession closeIDEConnection:] sending barrier
+20:50:53.947 testmanagerd[6560:83008] Got reply for process assertion request, success: YES
+20:50:53.947 testmanagerd[6560:83073] Got application state update: com.apple.test.UIKitCatalogUITest-Runner (6566) -> 8
+20:50:53.948 testmanagerd[6560:82929] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+20:50:53.949 testmanagerd[6560:83007] DTXSocketTransport disconnected
+20:50:53.949 testmanagerd[6560:83007] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7f87f140a040>
+20:50:53.950 testmanagerd[6560:83007] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+20:50:54.113 testmanagerd[6560:82929] Sending socket 7 to test host
+20:50:54.115 testmanagerd[6560:83007] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7f87f140a040>
+20:50:54.116 testmanagerd[6560:83007] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+20:50:54.120 testmanagerd[6560:83007] IDE connected over socket 6 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+20:50:54.121 testmanagerd[6560:83007] Created session with socket 6
+20:50:54.123 testmanagerd[6560:83008] Handled a proxy request from the IDE with session <XCIDESession: 0x7f87f140a040> proxy <_DTXProxy: 0x7f87f140dc30>
+20:50:54.124 testmanagerd[6560:83008] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 6566 22
+20:50:54.125 testmanagerd[6560:82929] Set control session <XCIDESession: 0x7f87f140a040> with proto 22 and proxy <_DTXProxy: 0x7f87f140dc30>
+20:50:54.138 testmanagerd[6560:82929] Found 57 files in /Library/Logs/DiagnosticReports
+20:50:54.142 testmanagerd[6560:82929] Started monitoring /Library/Logs/DiagnosticReports
+20:50:53.930 XCTRunner[6566:83053] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built at Friday, October 14, 2016 at 7:03:27 PM Pacific Daylight Time
+20:50:53.932 XCTRunner[6566:83053] System uptime: 2:40:17
+20:50:53.932 XCTRunner[6566:83053] Process arguments: (
+    "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Containers/Bundle/Application/61CF2995-1309-4A57-9222-F8B26FC9B4F4/UIKitCatalogUITest-Runner.app/XCTRunner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+20:50:53.932 XCTRunner[6566:83053] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Containers/Data/Application/729C8FEB-43C0-4927-B913-08FF9ACC7C05";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.2BERDXHLUB/Listeners";
+    "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Containers/Data/Application/729C8FEB-43C0-4927-B913-08FF9ACC7C05";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.717A9EB0-E6A6-4FC6-8BAF-B80236A07C52.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data";
+    "IPHONE_SIMULATOR_CLASS" = N61;
+    "IPHONE_SIMULATOR_DEVICE" = iPhone;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 6.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 6";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HOST_HOME" = "/Users/mumpiko";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/mumpiko/Library/Logs/CoreSimulator/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1334;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 750;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone7,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14B72;
+    "SIMULATOR_RUNTIME_VERSION" = "10.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data";
+    "SIMULATOR_UDID" = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 307.14.2 - Device: iPhone 6 - Runtime: iOS 10.1 (14B72) - DeviceType: iPhone 6";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.hoMoXJZo9F/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Containers/Data/Application/729C8FEB-43C0-4927-B913-08FF9ACC7C05/tmp";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/p4/_x58z1jn5bbgtyw2kr_wr3mw0000gn/T/com.apple.dt.XCTest/693E87BC-C20C-4ECF-85FD-F48DB6C90AD4/remote-container/tmp/UIKitCatalogUITest-693E87BC-C20C-4ECF-85FD-F48DB6C90AD4.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.UIKitCatalogUITest-Runner[0x4337]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.717A9EB0-E6A6-4FC6-8BAF-B80236A07C52.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+}
+20:50:53.932 XCTRunner[6566:83053] Loading DTXConnectionServices from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework
+20:50:53.936 XCTRunner[6566:83053] Session ID 693E87BC-C20C-4ECF-85FD-F48DB6C90AD4
+20:50:53.936 XCTRunner[6566:83053] Registering for testmanagerd availability notify post.
+20:50:53.936 XCTRunner[6566:83053] testmanagerd availability confirmed via notify_get_state.
+20:50:53.936 XCTRunner[6566:83053] Initiating connection to testmanagerd to request socket for IDE connection.
+20:50:53.937 XCTRunner[6566:83053] Requesting socket
+20:50:53.942 XCTRunner[6566:83059] Got daemon protocol version 6
+20:50:54.116 XCTRunner[6566:83058] Got socket 7 from daemon, making connection to IDE
+20:50:54.116 XCTRunner[6566:83058] Creating connection with transport
+20:50:54.117 XCTRunner[6566:83058] Resuming connection
+20:50:54.117 XCTRunner[6566:83058] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+20:50:54.148 XCTRunner[6566:83053] -[XCTestDriver _runSuite]
+20:50:54.149 xcodebuild[6555:82863] Starting test plan, clearing initialization timeout timer.
+20:50:54.149 XCTRunner[6566:83053] Initializing for UI testing.
+20:50:54.152 testmanagerd[6560:83001] Performing block with diagnostics...
+20:50:54.158 testmanagerd[6560:83001] Waiting 15.0s for AX to finish loading...
+20:50:54.164 testmanagerd[6560:83001] _AXSApplicationAccessibilityEnabled() returned false
+20:50:54.272 testmanagerd[6560:82929] AX is loaded
+20:50:54.292 testmanagerd[6560:83001] AXDisableAccessibilityOnTermination() returned 0
+20:50:54.293 testmanagerd[6560:83001] Created system wide AX element <AXUIElement 0x7f87f14167e0> {pid=0}
+20:50:54.295 testmanagerd[6560:83001] Registered for accessibility notification 1021
+20:50:54.296 testmanagerd[6560:83001] Registered for accessibility notification 1000
+20:50:54.297 testmanagerd[6560:83001] Registered for accessibility notification 1005
+20:50:54.298 testmanagerd[6560:83001] Registered for accessibility notification 1001
+20:50:54.299 testmanagerd[6560:83001] Registered for accessibility notification 1011
+20:50:54.300 testmanagerd[6560:83001] Registered for accessibility notification 4002
+20:50:54.301 testmanagerd[6560:83001] Registered for accessibility notification 4000
+20:50:54.303 testmanagerd[6560:83001] Registered for accessibility notification 4001
+20:50:54.304 testmanagerd[6560:83001] Registered for accessibility notification 5000
+20:50:54.304 testmanagerd[6560:83001] Block succeeded, canceling diagnostics.
+20:50:54.421 testmanagerd[6560:82929] AX Notification 4002
+20:50:54.425 testmanagerd[6560:82929] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+20:50:54.428 testmanagerd[6560:82929] AX Notification 4002
+20:50:54.430 testmanagerd[6560:82929] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+20:50:54.431 testmanagerd[6560:82929] AX Notification 1000
+20:50:54.433 testmanagerd[6560:82929] AX Notification 4002
+20:50:54.435 testmanagerd[6560:82929] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidDisappear;
+}
+20:50:54.500 testmanagerd[6560:83007] AXUIElementSetMessagingTimeout(<AXUIElement 0x7f87f14167e0> {pid=0}, 15) -> 0 
+20:50:54.502 testmanagerd[6560:83001] -[XCTestManager allowUITestControlForPID:] 6566 vs 6566
+20:50:54.503 testmanagerd[6560:83001] Registered for AX notification 4002
+20:50:54.504 testmanagerd[6560:83001] -[XCTestManager allowUITestControlForPID:] 6566 vs 6566
+20:50:54.505 testmanagerd[6560:83001] Registered for AX notification 1006
+20:50:54.506 testmanagerd[6560:83007] -[XCTestManager allowUITestControlForPID:] 6566 vs 6566
+20:50:54.507 testmanagerd[6560:83007] Registered for AX notification 1021
+20:50:54.509 testmanagerd[6560:83007] Got request for process assertion for pid 6566.
+20:50:54.509 testmanagerd[6560:83007] Invalidating previous process assertion for pid 6566.
+20:50:54.510 testmanagerd[6560:83007] Created process assertion for pid 6566: <BKSProcessAssertion: 0x7f87f14118b0>, waiting for response from assertiond.
+20:50:54.512 testmanagerd[6560:83001] Got reply for process assertion request, success: YES
+20:50:54.513 XCTRunner[6566:83058] Got reply for background assertion for test process, acquired: YES.
+20:50:54.514 XCTRunner[6566:83053] Registering for UIApplicationDidEnterBackgroundNotification
+20:50:54.514 XCTRunner[6566:83053] Hitting home button to enter background.
+20:50:54.515 testmanagerd[6560:83072] -[XCTestManager allowUITestControlForPID:] 6566 vs 6566
+20:50:54.516 testmanagerd[6560:83072] Performing <XCDeviceEvent:0x7f87f153f310 page 12 usage 64 duration 0.01s
+20:50:54.519 testmanagerd[6560:83072] Dispatching device event synthesis to background queue
+20:50:54.520 testmanagerd[6560:83072] Sleeping for 0.005000s before sending up event
+20:50:54.540 testmanagerd[6560:83072] Device event sent.
+20:50:54.545 testmanagerd[6560:82929] AX Notification 4002
+20:50:54.546 XCTRunner[6566:83058] Got AX notification 4002
+20:50:54.546 testmanagerd[6560:82929] Got user testing notification with payload {
+    event = ButtonEventsCompleted;
+}
+20:50:54.547 testmanagerd[6560:82929] Device event complete, replying to client.
+20:50:54.876 testmanagerd[6560:82929] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control session...
+20:50:55.032 XCTRunner[6566:83059] Got AX notification 1021
+20:50:55.033 XCTRunner[6566:83059] Got kAXPidStatusChangedNotification for 6566: active
+20:50:55.027 testmanagerd[6560:82929] AX Notification 1021
+20:50:55.038 XCTRunner[6566:83077] Got AX notification 4002
+20:50:55.037 testmanagerd[6560:82929] AX Notification 4002
+20:50:55.040 testmanagerd[6560:82929] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+20:50:55.045 testmanagerd[6560:82929] AX Notification 1000
+20:50:55.047 testmanagerd[6560:82929] AX Notification 1000
+20:50:55.048 testmanagerd[6560:82929] AX Notification 1000
+20:50:55.049 testmanagerd[6560:82929] AX Notification 1011
+20:50:55.052 XCTRunner[6566:83075] Got AX notification 4002
+20:50:55.050 testmanagerd[6560:82929] AX Notification 4002
+20:50:55.052 testmanagerd[6560:82929] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidAppear;
+}
+20:50:55.198 XCTRunner[6566:83053] No application process found matching pid 6566, caching
+20:50:55.497 XCTRunner[6566:83053] Got UIApplicationDidEnterBackgroundNotification
+20:50:55.479 testmanagerd[6560:82929] AX Notification 1011
+20:50:55.562 testmanagerd[6560:83001] Got application state update: com.apple.test.UIKitCatalogUITest-Runner (6566) -> 4
+20:50:55.566 XCTRunner[6566:83075] Got AX notification 4002
+20:50:55.563 testmanagerd[6560:82929] AX Notification 4002
+20:50:55.566 testmanagerd[6560:82929] Got user testing notification with payload {
+    controllerClass = SBAppContainerViewController;
+    event = ViewDidDisappear;
+}
+20:50:55.571 XCTRunner[6566:83053] Done initializing for UI testing.
+20:50:55.571 XCTRunner[6566:83053] Loading test suite...
+20:50:55.577 testmanagerd[6560:82929] AX Notification 1021
+20:50:55.579 testmanagerd[6560:82929] AX Notification 4002
+20:50:55.581 testmanagerd[6560:82929] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+20:50:55.638 XCTRunner[6566:83075] Got AX notification 1021
+20:50:55.643 XCTRunner[6566:83075] Got kAXPidStatusChangedNotification for 6566: suspended
+20:50:55.643 XCTRunner[6566:83075] Got AX notification 4002
+20:50:55.645 XCTRunner[6566:83053] Monitor: created XCUIApplicationImpl for com.example.apple-samplecode.UIKitCatalog
+20:50:55.646 XCTRunner[6566:83053] Starting to monitor <XCUIApplicationImpl: 0x60800023fae0 com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app>
+20:50:55.646 XCTRunner[6566:83053] No application process found matching pid 6566, caching
+20:50:55.646 testmanagerd[6560:83072] Starting to monitor com.example.apple-samplecode.UIKitCatalog
+20:50:55.648 testmanagerd[6560:83072] Got application state update: com.example.apple-samplecode.UIKitCatalog (0) -> 1
+20:50:55.649 XCTRunner[6566:83112] testmanagerd reported update to com.example.apple-samplecode.UIKitCatalog, pid: 0, BKSApplicationState: 1
+20:50:55.649 XCTRunner[6566:83053] <XCUIApplicationImpl: 0x60800023fae0 com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app> changing currentProcess from (null) to <XCUIApplicationProcess: 0x6000000aed00 (null) (0)>
+20:50:55.651 XCTRunner[6566:83059] <XCUIApplicationProcess: 0x6000000aed00 com.example.apple-samplecode.UIKitCatalog (0)> application state XCApplicationStateUnknown (0) -> XCApplicationStateNotRunning (1)
+20:50:55.652 XCTRunner[6566:83053] Done setting pid for <XCUIApplicationImpl: 0x60800023fae0 com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app> to 0
+20:50:55.653 XCTRunner[6566:83053] App state updated for <XCUIApplicationImpl: 0x60800023fae0 com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app>: XCApplicationStateNotRunning (1)
+20:50:55.655 XCTRunner[6566:83053] Finished loading test suite, took 0.084s
+20:50:55.656 XCTRunner[6566:83053] -[_XCTestDriverTestObserver testBundleWillStart:]
+20:50:55.656 XCTRunner[6566:83053] Running suite...
+20:50:55.657 XCTRunner[6566:83053] -[_XCTestDriverTestObserver testSuiteWillStart:]
+2016-12-10 20:50:53.867 XCTRunner[6566:83053] Running tests...
+2016-12-10 20:50:54.935 XCTRunner[6566:83053] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2016-12-10 20:50:55.656
+20:50:55.659 xcodebuild[6555:82938] (LOG ARBITER) Rotating message buffer with 1 messages.
+20:50:59.644 xcodebuild[6555:83050] (LOG ARBITER) Rotating message buffer with 117 messages.
+20:51:02.653 xcodebuild[6555:82939] (LOG ARBITER) Rotating message buffer with 338 messages.
+20:51:05.657 xcodebuild[6555:82937] (LOG ARBITER) Rotating message buffer with 488 messages.
+20:51:08.618 xcodebuild[6555:82939] (LOG ARBITER) Rotating message buffer with 497 messages.
+20:51:08.679 xcodebuild[6555:83016] (LOG ARBITER) Dumping buffered message data; 1441 messages.
+20:51:08.674 XCTRunner[6566:83053] <XCTestExpectationWaiter: 0x608000010770>: primitiveWait woke from run loop
+20:51:08.675 XCTRunner[6566:83053] <XCTestExpectationWaiter: 0x608000010770> done waiting
+20:51:08.675 XCTRunner[6566:83053] <XCTestExpectationWaiter: 0x608000010770> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6000000aed00 com.example.apple-samplecode.UIKitCatalog (6574)>
+20:51:08.676 XCTRunner[6566:83053] Monitor: done waiting for state changes to launched application(s)
+    t =     0.00s     Start Test at 2016-12-10 20:50:55.664
+    t =     0.01s     Set Up
+    t =     0.02s         Launch com.example.apple-samplecode.UIKitCatalog
+    t =     4.35s             Waiting for accessibility to load
+    t =     4.83s             Wait for app to idle
+    t =     6.27s     Tap "UIKitCatalog" Button
+    t =     6.28s         Wait for app to idle
+    t =     6.37s         Find the "UIKitCatalog" Button
+    t =     6.37s             Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =     6.46s             Find: Descendants matching type NavigationBar
+    t =     6.47s             Find: Elements matching predicate '"UIView" IN identifiers'
+    t =     6.47s             Find: Descendants matching type Button
+    t =     6.47s             Find: Elements matching predicate '"UIKitCatalog" IN identifiers'
+    t =     6.52s             Wait for app to idle
+    t =     6.62s         Synthesize event
+    t =     6.98s         Wait for app to idle
+    t =     7.63s     Tap "Buttons" StaticText
+    t =     7.63s         Wait for app to idle
+    t =     8.14s         Find the "Buttons" StaticText
+    t =     8.14s             Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =     8.33s             Find: Descendants matching type Table
+    t =     8.34s             Find: Descendants matching type StaticText
+    t =     8.35s             Find: Elements matching predicate '"Buttons" IN identifiers'
+    t =     8.39s             Wait for app to idle
+    t =     8.49s         Synthesize event
+    t =     8.83s         Wait for app to idle
+    t =     9.65s     Get number of matches for: Children matching type Other
+    t =     9.73s         Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =     9.85s         Find: Descendants matching type StatusBar
+    t =     9.85s         Find: Children matching type Other
+    t =     9.85s         Find: Element at index 1
+    t =     9.85s         Find: Children matching type Other
+    t =     9.86s     Find the Other
+    t =     9.86s         Use cached accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =     9.88s         Find: Descendants matching type StatusBar
+    t =     9.88s         Find: Children matching type Other
+    t =     9.94s         Find: Element at index 1
+    t =     9.97s         Find: Children matching type Other
+    t =     9.99s         Find: Element at index 0
+    t =    10.00s     Find the Other
+    t =    10.02s         Use cached accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    10.05s         Find: Descendants matching type StatusBar
+    t =    10.07s         Find: Children matching type Other
+    t =    10.07s         Find: Element at index 1
+    t =    10.08s         Find: Children matching type Other
+    t =    10.09s         Find: Element at index 1
+    t =    10.09s     Find the Other
+    t =    10.11s         Use cached accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    10.12s         Find: Descendants matching type StatusBar
+    t =    10.13s         Find: Children matching type Other
+    t =    10.13s         Find: Element at index 1
+    t =    10.14s         Find: Children matching type Other
+    t =    10.14s         Find: Element at index 2
+    t =    10.14s     Find the Other
+    t =    10.14s         Use cached accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    10.16s         Find: Descendants matching type StatusBar
+    t =    10.16s         Find: Children matching type Other
+    t =    10.16s         Find: Element at index 1
+    t =    10.17s         Find: Children matching type Other
+    t =    10.17s         Find: Element at index 3
+snapshot: 1ButtonCatalogScreen
+    t =    11.24s     Set device orientation to Unknown
+    t =    11.31s     Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    11.42s     Find: Descendants matching type Button
+    t =    11.42s     Find: Elements matching predicate '"Button" IN identifiers'
+    t =    11.42s     Tap "UIKitCatalog" Button
+    t =    11.42s         Wait for app to idle
+    t =    11.52s         Find the "UIKitCatalog" Button
+    t =    11.52s             Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    11.63s             Find: Descendants matching type NavigationBar
+    t =    11.63s             Find: Elements matching predicate '"Buttons" IN identifiers'
+    t =    11.64s             Find: Descendants matching type Button
+    t =    11.64s             Find: Elements matching predicate '"UIKitCatalog" IN identifiers'
+    t =    11.67s             Wait for app to idle
+    t =    11.76s         Synthesize event
+    t =    12.07s         Wait for app to idle
+    t =    12.66s     Tear Down
+Test Case '-[UIKitCatalogUITest.UIKitCatalogUITests testButtons]' passed (13.014 seconds).
+20:51:08.677 XCTRunner[6566:83053] -[_XCTestDriverTestObserver testCaseDidFinish:]
+20:51:08.678 xcodebuild[6555:82863] _XCT_testCaseDidFinishForTestClass:UIKitCatalogUITest.UIKitCatalogUITests method:testButtons withStatus:passed duration:13.01435899734497
+Test Suite 'UIKitCatalogUITests' passed at 2016-12-10 20:51:08.678.
+	 Executed 1 test, with 0 failures (0 unexpected) in 13.014 (13.018) seconds
+20:51:08.679 XCTRunner[6566:83053] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+20:51:08.681 xcodebuild[6555:82863] _XCT_testSuite:UIKitCatalogUITests didFinishAt:2016-12-11 04:51:08 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:13.01435899734497 totalDuration:13.0178439617157
+Test Suite 'UIKitCatalogUITest.xctest' passed at 2016-12-10 20:51:08.680.
+	 Executed 1 test, with 0 failures (0 unexpected) in 13.014 (13.021) seconds
+20:51:08.682 XCTRunner[6566:83053] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+20:51:08.685 xcodebuild[6555:82863] _XCT_testSuite:UIKitCatalogUITest.xctest didFinishAt:2016-12-11 04:51:08 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:13.01435899734497 totalDuration:13.02100497484207
+Test Suite 'All tests' passed at 2016-12-10 20:51:08.684.
+	 Executed 1 test, with 0 failures (0 unexpected) in 13.014 (13.027) seconds
+20:51:08.684 XCTRunner[6566:83053] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+20:51:08.686 xcodebuild[6555:82863] _XCT_testSuite:All tests didFinishAt:2016-12-11 04:51:08 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:13.01435899734497 totalDuration:13.02725297212601
+20:51:08.685 XCTRunner[6566:83053] Finished running suite.
+20:51:08.686 XCTRunner[6566:83053] -[_XCTestDriverTestObserver testBundleDidFinish:], Flushing connection to IDE...
+20:51:08.687 xcodebuild[6555:82863] -[IDETestOperationCoordinator _XCT_didFinishExecutingTestPlan]
+20:51:08.687 xcodebuild[6555:82863] <IDEExecutionOperationTracker: 0x7fcd3be137c0: Launch application com.example.apple-samplecode.UIKitCatalog for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fcd3bf792b0: subtrackers=none>"
+)> is not finished
+20:51:08.688 xcodebuild[6555:82863] Observed termination of tracker for token 1 for launch of com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app
+20:51:08.689 xcodebuild[6555:82863] _finishWithError:(null) didCancel: 0
