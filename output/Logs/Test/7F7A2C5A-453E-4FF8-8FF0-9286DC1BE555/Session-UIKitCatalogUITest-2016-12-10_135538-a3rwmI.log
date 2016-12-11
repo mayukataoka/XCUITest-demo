@@ -1,0 +1,889 @@
+13:55:38.707 xcodebuild[55660:3281999] Beginning test session UIKitCatalogUITest-BD264067-51D8-496D-9374-BF0B2BE5DE55 at 2016-12-10 13:55:38.705 with Xcode 8B62 on target <DVTiPhoneSimulator: 0x7fc78a4e11e0> {
+		SimDevice: SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }
+} (10.1 (14B72))
+13:55:38.707 xcodebuild[55660:3281999] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-workspace
+UIKitCatalog.xcworkspace
+-scheme
+UIKitCatalogUITest
+-destination
+platform=iOS Simulator,name=iPhone 6,OS=10.1
+-derivedDataPath
+./output
+test
+13:55:38.707 xcodebuild[55660:3281999] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+13:55:38.719 xcodebuild[55660:3281999] Initializing test infrastructure.
+13:55:38.719 xcodebuild[55660:3282019] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Registered for sim device notification, got token 4
+13:55:38.719 xcodebuild[55660:3282019] Sim iPhone 6 is not booted, will wait up to 120 seconds.
+13:55:39.028 xcodebuild[55660:3281999] Received Ready from iOSSimulator
+13:55:39.028 xcodebuild[55660:3281999] Sending notification: NSConcreteNotification 0x7fc78a7ed940 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+}}
+13:55:39.079 xcodebuild[55660:3282034] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Received sim device notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.079 xcodebuild[55660:3282034] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Received sim device notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.079 xcodebuild[55660:3282034] Got a sim device notification for iPhone 6: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.079 xcodebuild[55660:3282034] Sim iPhone 6 state changed to 2
+13:55:39.080 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.080 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.080 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.080 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.080 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.081 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.081 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.081 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.081 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.081 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.081 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.081 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.081 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.082 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.082 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.082 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.082 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.082 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.082 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.082 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.082 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.083 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.083 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.083 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.083 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.083 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.083 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.083 xcodebuild[55660:3282000] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+13:55:39.247 xcodebuild[55660:3282000] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Received sim device notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282181] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282153] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Received sim device notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282034] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282153] Got a sim device notification for iPhone 6: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282155] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282156] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282158] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282157] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282159] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282160] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282161] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282162] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282163] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282164] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282165] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282166] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282167] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282168] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282169] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282170] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282171] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282172] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282173] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282174] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282175] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282176] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282177] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282178] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282179] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.371 xcodebuild[55660:3282180] /Users/mumpiko/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+13:55:39.372 xcodebuild[55660:3282153] Sim iPhone 6 state changed to 3
+13:55:39.373 xcodebuild[55660:3282019] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Unregistering for sim device notification with token 4
+13:55:39.373 xcodebuild[55660:3282019] Sim iPhone 6 is booted (state = 3)
+13:55:39.373 xcodebuild[55660:3282019] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+13:55:39.901 xcodebuild[55660:3282019] Returning /private/tmp/com.apple.launchd.T3jrhwztum/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+13:55:39.902 xcodebuild[55660:3282019] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.T3jrhwztum/com.apple.testmanagerd.unix-domain.socket
+13:55:39.902 xcodebuild[55660:3282019] Connected socket 15 to testmanagerd for Sim iPhone 6
+13:55:39.902 xcodebuild[55660:3282019] Creating the test bundle connection.
+13:55:39.903 xcodebuild[55660:3282019] Listening for proxy connection request from the test bundle (all platforms)
+13:55:39.903 xcodebuild[55660:3282019] Resuming the connection.
+13:55:39.903 xcodebuild[55660:3282019] Test connection requires daemon assistance.
+13:55:39.904 xcodebuild[55660:3281999] Starting test session with ID BD264067-51D8-496D-9374-BF0B2BE5DE55
+13:55:39.904 xcodebuild[55660:3281999] Checking test manager availability..., will wait up to 120s
+13:56:28.225 xcodebuild[55660:3281999] Launch session started, setting a disallow-finish-token on the run operation.
+13:56:28.241 xcodebuild[55660:3281999] Received Ready from iOSSimulator
+13:56:28.241 xcodebuild[55660:3281999] Sending notification: NSConcreteNotification 0x7fc78a6b8e50 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+}}
+13:56:28.245 xcodebuild[55660:3281999] Adding console adaptor <IDEConsoleAdaptor: 0x7fc78a6ac630 'target'> for test session BD264067-51D8-496D-9374-BF0B2BE5DE55.
+13:56:28.254 xcodebuild[55660:3283710] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Registered for sim device notification, got token 5
+13:56:28.255 xcodebuild[55660:3283392] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Unregistering for sim device notification with token 5
+13:56:28.256 xcodebuild[55660:3283392] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Installing app at path: /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalogUITest-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.UIKitCatalogUITest-Runner";
+}
+13:56:28.256 xcodebuild[55660:3281999] Received Ready from iOSSimulator
+13:56:28.256 xcodebuild[55660:3281999] Sending notification: NSConcreteNotification 0x7fc78a69e720 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+}}
+13:56:33.192 xcodebuild[55660:3283392] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Installed app at path: /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalogUITest-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.UIKitCatalogUITest-Runner";
+}
+13:56:33.210 xcodebuild[55660:3283392] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Registered for sim device notification, got token 6
+13:56:33.219 xcodebuild[55660:3283328] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Unregistering for sim device notification with token 6
+13:56:33.224 xcodebuild[55660:3281999] Received Ready from iOSSimulator
+13:56:33.224 xcodebuild[55660:3281999] Sending notification: NSConcreteNotification 0x7fc78a94ff00 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+}}
+13:56:36.088 xcodebuild[55660:3283392] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Launching app with identifier: com.apple.test.UIKitCatalogUITest-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_LIBRARY_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/p4/_x58z1jn5bbgtyw2kr_wr3mw0000gn/T/com.apple.dt.XCTest/BD264067-51D8-496D-9374-BF0B2BE5DE55/remote-container/tmp/UIKitCatalogUITest-BD264067-51D8-496D-9374-BF0B2BE5DE55.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 0;
+}
+13:56:36.178 xcodebuild[55660:3284223] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Launched app with identifier: com.apple.test.UIKitCatalogUITest-Runner (pid = 55959)
+13:56:36.178 xcodebuild[55660:3284223] Tracking pid 55959 for simulator <DVTiPhoneSimulator: 0x7fc78a4e11e0> {
+		SimDevice: SimDevice : iPhone 6 (717A9EB0-E6A6-4FC6-8BAF-B80236A07C52) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.1 (14B72) - com.apple.CoreSimulator.SimRuntime.iOS-10-1 }
+}
+13:56:36.178 xcodebuild[55660:3284223] Checking to see if pid 55959 is valid: kill(pid, 0) = 0 (YES, it's still running)
+13:56:36.178 xcodebuild[55660:3284223] Setting up DVTNotifyOnProcDeath for pid 55959
+13:56:36.178 xcodebuild[55660:3281999] Test process runnable PID is 55959.
+13:56:52.805 xcodebuild[55660:3283392] testmanagerd handled session request.
+13:56:52.805 xcodebuild[55660:3281999] Waiting for test process to launch.
+13:56:53.029 xcodebuild[55660:3283392] Got proxy channel request from test bundle
+13:56:53.029 xcodebuild[55660:3283392] Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+13:56:53.036 xcodebuild[55660:3283710] Creating secondary transport and connection for whitelisting test process PID.
+13:56:53.036 xcodebuild[55660:3283710] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Registered for sim device notification, got token 7
+13:56:53.036 xcodebuild[55660:3283710] 717A9EB0-E6A6-4FC6-8BAF-B80236A07C52: Unregistering for sim device notification with token 7
+13:56:53.036 xcodebuild[55660:3283710] Sim iPhone 6 is booted (state = 3)
+13:56:53.036 xcodebuild[55660:3283710] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+13:56:53.043 xcodebuild[55660:3283710] Returning /private/tmp/com.apple.launchd.T3jrhwztum/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+13:56:53.043 xcodebuild[55660:3283710] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.T3jrhwztum/com.apple.testmanagerd.unix-domain.socket
+13:56:53.044 xcodebuild[55660:3283710] Connected socket 23 to testmanagerd for Sim iPhone 6
+13:56:53.044 xcodebuild[55660:3283710] Creating the daemon control connection.
+13:56:53.044 xcodebuild[55660:3283710] Resuming the secondary connection.
+13:56:53.044 xcodebuild[55660:3283710] Whitelisting test process ID 55959
+13:56:52.409 testmanagerd[55698:3282945] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, built at Thursday, October 13, 2016 at 8:29:37 AM Pacific Daylight Time
+13:56:52.622 testmanagerd[55698:3284685] IDE connected over socket 5 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+13:56:52.635 testmanagerd[55698:3284685] Created session with socket 5
+13:56:52.648 testmanagerd[55698:3284694] Handled a proxy request from the IDE with session <XCIDESession: 0x7fe02ed1de00> proxy <_DTXProxy: 0x7fe02ed1b540>
+13:56:52.652 testmanagerd[55698:3282945] Setting availability state.
+13:56:52.764 testmanagerd[55698:3282945] Posting availability to test bundles...
+13:56:52.788 testmanagerd[55698:3282945] __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke BD264067-51D8-496D-9374-BF0B2BE5DE55 1 5 from client F0336C2B-007F-487B-B562-91B9DE4EB3F3-55660-00019D04A5E0C8AA (/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild)
+13:56:52.788 testmanagerd[55698:3284684] Received new test session connection (-[XCTestManager listener:shouldAcceptNewConnection:])
+13:56:52.804 testmanagerd[55698:3284694] __45-[XCTestManager setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fe02ed1de00> -> BD264067-51D8-496D-9374-BF0B2BE5DE55
+13:56:52.809 testmanagerd[55698:3284694] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+13:56:52.814 testmanagerd[55698:3282945] Initial orientation 0
+13:56:52.824 testmanagerd[55698:3284695] Test session BD264067-51D8-496D-9374-BF0B2BE5DE55 requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+13:56:52.841 testmanagerd[55698:3284684] Test session BD264067-51D8-496D-9374-BF0B2BE5DE55 requested socket (__57-[XCTestManager requestSocketForSessionIdentifier:reply:]_block_invoke)
+13:56:52.842 testmanagerd[55698:3284684] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+13:56:52.842 testmanagerd[55698:3284697] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.apple.test.UIKitCatalogUITest-Runner";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 55959;
+    SBMostElevatedStateForProcessID = 8;
+}
+13:56:52.843 testmanagerd[55698:3284684] Closing IDE connection before sending socket 7 to test host.
+13:56:52.844 testmanagerd[55698:3284697] Got request for process assertion for pid 55959.
+13:56:52.847 testmanagerd[55698:3284697] Created process assertion for pid 55959: <BKSProcessAssertion: 0x7fe02ed00da0>, waiting for response from assertiond.
+13:56:52.848 testmanagerd[55698:3284697] Starting to monitor com.apple.test.UIKitCatalogUITest-Runner
+13:56:53.100 xcodebuild[55660:3284702] Got whitelisting response and daemon protocol version 22
+13:56:53.104 testmanagerd[55698:3282945] Received request to collect crash reports in directories '/Users/mumpiko/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'UIKitCatalogUITest-Runner', 'UIKitCatalog', 'xctest', 'XCTRunner'
+13:56:53.106 testmanagerd[55698:3282945] Initializing crash report observer for /Users/mumpiko/Library/Logs/DiagnosticReports
+13:56:53.108 testmanagerd[55698:3282945] Getting files in /Users/mumpiko/Library/Logs/DiagnosticReports
+13:56:53.112 testmanagerd[55698:3282945] Found 13 files in /Users/mumpiko/Library/Logs/DiagnosticReports
+13:56:53.114 testmanagerd[55698:3282945] Started monitoring /Users/mumpiko/Library/Logs/DiagnosticReports
+13:56:53.116 testmanagerd[55698:3282945] Initializing crash report observer for /Library/Logs/DiagnosticReports
+13:56:53.120 testmanagerd[55698:3282945] Getting files in /Library/Logs/DiagnosticReports
+13:56:52.846 testmanagerd[55698:3284684] -[XCIDESession closeIDEConnection:] sending barrier
+13:56:52.851 testmanagerd[55698:3282945] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+13:56:52.855 testmanagerd[55698:3284684] Got reply for process assertion request, success: YES
+13:56:52.861 testmanagerd[55698:3284695] DTXSocketTransport disconnected
+13:56:52.862 testmanagerd[55698:3284694] Got application state update: com.apple.test.UIKitCatalogUITest-Runner (55959) -> 8
+13:56:52.865 testmanagerd[55698:3284695] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7fe02ed1de00>
+13:56:52.866 testmanagerd[55698:3284695] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+13:56:53.017 testmanagerd[55698:3282945] Sending socket 7 to test host
+13:56:53.024 testmanagerd[55698:3284695] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7fe02ed1de00>
+13:56:53.045 testmanagerd[55698:3284695] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+13:56:53.045 testmanagerd[55698:3284694] IDE connected over socket 6 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+13:56:53.048 testmanagerd[55698:3284694] Created session with socket 6
+13:56:53.067 testmanagerd[55698:3284695] Handled a proxy request from the IDE with session <XCIDESession: 0x7fe02ed1de00> proxy <_DTXProxy: 0x7fe02ec1d940>
+13:56:53.070 testmanagerd[55698:3284695] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 55959 22
+13:56:53.071 testmanagerd[55698:3282945] Set control session <XCIDESession: 0x7fe02ed1de00> with proto 22 and proxy <_DTXProxy: 0x7fe02ec1d940>
+13:56:53.758 testmanagerd[55698:3282945] Found 52 files in /Library/Logs/DiagnosticReports
+13:56:53.771 testmanagerd[55698:3282945] Started monitoring /Library/Logs/DiagnosticReports
+13:56:38.361 XCTRunner[55959:3284225] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built at Friday, October 14, 2016 at 7:03:27 PM Pacific Daylight Time
+13:56:38.366 XCTRunner[55959:3284225] System uptime: 5d 6:09:36
+13:56:38.366 XCTRunner[55959:3284225] Process arguments: (
+    "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Containers/Bundle/Application/8A026417-CA41-4770-9AB8-D5BEDDEAF981/UIKitCatalogUITest-Runner.app/XCTRunner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+13:56:38.367 XCTRunner[55959:3284225] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Containers/Data/Application/B6320A59-6802-4456-B166-115867232F5B";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.r3YRM7r1J4/Listeners";
+    "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Containers/Data/Application/B6320A59-6802-4456-B166-115867232F5B";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.717A9EB0-E6A6-4FC6-8BAF-B80236A07C52.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data";
+    "IPHONE_SIMULATOR_CLASS" = N61;
+    "IPHONE_SIMULATOR_DEVICE" = iPhone;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 6.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 6";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HOST_HOME" = "/Users/mumpiko";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/mumpiko/Library/Logs/CoreSimulator/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1334;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 750;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone7,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14B72;
+    "SIMULATOR_RUNTIME_VERSION" = "10.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data";
+    "SIMULATOR_UDID" = "717A9EB0-E6A6-4FC6-8BAF-B80236A07C52";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 307.14.2 - Device: iPhone 6 - Runtime: iOS 10.1 (14B72) - DeviceType: iPhone 6";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.T3jrhwztum/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/mumpiko/Library/Developer/CoreSimulator/Devices/717A9EB0-E6A6-4FC6-8BAF-B80236A07C52/data/Containers/Data/Application/B6320A59-6802-4456-B166-115867232F5B/tmp";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/p4/_x58z1jn5bbgtyw2kr_wr3mw0000gn/T/com.apple.dt.XCTest/BD264067-51D8-496D-9374-BF0B2BE5DE55/remote-container/tmp/UIKitCatalogUITest-BD264067-51D8-496D-9374-BF0B2BE5DE55.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.UIKitCatalogUITest-Runner[0x409f]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.717A9EB0-E6A6-4FC6-8BAF-B80236A07C52.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator";
+}
+13:56:38.367 XCTRunner[55959:3284225] Loading DTXConnectionServices from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework
+13:56:38.386 XCTRunner[55959:3284225] Session ID BD264067-51D8-496D-9374-BF0B2BE5DE55
+13:56:38.386 XCTRunner[55959:3284225] Registering for testmanagerd availability notify post.
+13:56:38.394 XCTRunner[55959:3284225] testmanagerd availability notify_get_state check indicated manager not ready, waiting for notify post.
+13:56:52.786 XCTRunner[55959:3284259] Got availability notification from testmanagerd, bouncing to MT.
+13:56:52.786 XCTRunner[55959:3284225] Initiating connection to testmanagerd to request socket for IDE connection.
+13:56:52.788 XCTRunner[55959:3284225] Requesting socket
+13:56:52.827 XCTRunner[55959:3284259] Got daemon protocol version 6
+13:56:53.026 XCTRunner[55959:3284259] Got socket 7 from daemon, making connection to IDE
+13:56:53.027 XCTRunner[55959:3284259] Creating connection with transport
+13:56:53.027 XCTRunner[55959:3284259] Resuming connection
+13:56:53.028 XCTRunner[55959:3284259] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+13:56:53.784 XCTRunner[55959:3284225] -[XCTestDriver _runSuite]
+13:56:53.788 xcodebuild[55660:3281999] Starting test plan, clearing initialization timeout timer.
+13:56:53.784 XCTRunner[55959:3284225] Initializing for UI testing.
+13:56:53.823 testmanagerd[55698:3284685] Performing block with diagnostics...
+13:56:53.826 testmanagerd[55698:3284685] Waiting 15.0s for AX to finish loading...
+13:56:53.844 testmanagerd[55698:3284685] _AXSApplicationAccessibilityEnabled() returned true
+13:56:53.933 testmanagerd[55698:3284685] AXDisableAccessibilityOnTermination() returned 0
+13:56:53.941 testmanagerd[55698:3284685] Created system wide AX element <AXUIElement 0x7fe02ec10970> {pid=0}
+13:56:53.958 testmanagerd[55698:3284685] Registered for accessibility notification 1021
+13:56:53.960 testmanagerd[55698:3284685] Registered for accessibility notification 1000
+13:56:53.966 testmanagerd[55698:3284685] Registered for accessibility notification 1005
+13:56:53.968 testmanagerd[55698:3284685] Registered for accessibility notification 1001
+13:56:53.969 testmanagerd[55698:3284685] Registered for accessibility notification 1011
+13:56:53.970 testmanagerd[55698:3284685] Registered for accessibility notification 4002
+13:56:53.971 testmanagerd[55698:3284685] Registered for accessibility notification 4000
+13:56:53.973 testmanagerd[55698:3284685] Registered for accessibility notification 4001
+13:56:53.974 testmanagerd[55698:3284685] Registered for accessibility notification 5000
+13:56:53.975 testmanagerd[55698:3284685] Block succeeded, canceling diagnostics.
+13:56:53.988 testmanagerd[55698:3284685] AXUIElementSetMessagingTimeout(<AXUIElement 0x7fe02ec10970> {pid=0}, 15) -> 0 
+13:56:54.005 testmanagerd[55698:3284685] -[XCTestManager allowUITestControlForPID:] 55959 vs 55959
+13:56:54.008 testmanagerd[55698:3284685] Registered for AX notification 4002
+13:56:54.010 testmanagerd[55698:3284685] -[XCTestManager allowUITestControlForPID:] 55959 vs 55959
+13:56:54.012 testmanagerd[55698:3284685] Registered for AX notification 1006
+13:56:54.016 testmanagerd[55698:3284685] -[XCTestManager allowUITestControlForPID:] 55959 vs 55959
+13:56:54.017 testmanagerd[55698:3284685] Registered for AX notification 1021
+13:56:54.020 testmanagerd[55698:3284695] Got request for process assertion for pid 55959.
+13:56:54.021 testmanagerd[55698:3284695] Invalidating previous process assertion for pid 55959.
+13:56:54.024 testmanagerd[55698:3284695] Created process assertion for pid 55959: <BKSProcessAssertion: 0x7fe02ec33940>, waiting for response from assertiond.
+13:56:54.026 testmanagerd[55698:3284684] Got reply for process assertion request, success: YES
+13:56:54.034 XCTRunner[55959:3284701] Got reply for background assertion for test process, acquired: YES.
+13:56:54.035 XCTRunner[55959:3284225] Registering for UIApplicationDidEnterBackgroundNotification
+13:56:54.036 XCTRunner[55959:3284225] Hitting home button to enter background.
+13:56:54.038 testmanagerd[55698:3284685] -[XCTestManager allowUITestControlForPID:] 55959 vs 55959
+13:56:54.041 testmanagerd[55698:3284685] Performing <XCDeviceEvent:0x7fe02ec2d670 page 12 usage 64 duration 0.01s
+13:56:54.048 testmanagerd[55698:3284685] Dispatching device event synthesis to background queue
+13:56:54.050 testmanagerd[55698:3284684] Sleeping for 0.005000s before sending up event
+13:56:54.074 testmanagerd[55698:3284684] Device event sent.
+13:56:54.087 testmanagerd[55698:3282945] AX Notification 4002
+13:56:54.089 XCTRunner[55959:3284706] Got AX notification 4002
+13:56:54.089 testmanagerd[55698:3282945] Got user testing notification with payload {
+    event = ButtonEventsCompleted;
+}
+13:56:54.089 testmanagerd[55698:3282945] Device event complete, replying to client.
+13:56:55.197 XCTRunner[55959:3284700] Got AX notification 1021
+13:56:55.197 XCTRunner[55959:3284700] Got kAXPidStatusChangedNotification for 55959: active
+13:56:55.192 testmanagerd[55698:3282945] AX Notification 1021
+13:56:55.317 XCTRunner[55959:3284701] Got AX notification 4002
+13:56:55.403 XCTRunner[55959:3284225] No application process found matching pid 55959, caching
+13:56:55.412 XCTRunner[55959:3284225] Got UIApplicationDidEnterBackgroundNotification
+13:56:55.198 testmanagerd[55698:3282945] AX Notification 4002
+13:56:55.318 testmanagerd[55698:3282945] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+13:56:55.480 testmanagerd[55698:3284695] Got application state update: com.apple.test.UIKitCatalogUITest-Runner (55959) -> 4
+13:56:55.576 testmanagerd[55698:3282945] AX Notification 1000
+13:56:55.653 testmanagerd[55698:3282945] AX Notification 1000
+13:56:55.681 testmanagerd[55698:3282945] AX Notification 1000
+13:56:55.689 XCTRunner[55959:3284696] Got AX notification 4002
+13:56:55.686 testmanagerd[55698:3282945] AX Notification 4002
+13:56:55.690 testmanagerd[55698:3282945] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidAppear;
+}
+13:56:55.692 testmanagerd[55698:3282945] AX Notification 1011
+13:56:55.895 XCTRunner[55959:3284225] Done initializing for UI testing.
+13:56:55.895 XCTRunner[55959:3284225] Loading test suite...
+13:56:56.058 XCTRunner[55959:3284225] Monitor: created XCUIApplicationImpl for com.example.apple-samplecode.UIKitCatalog
+13:56:56.063 XCTRunner[55959:3284225] Starting to monitor <XCUIApplicationImpl: 0x600000426980 com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app>
+13:56:56.064 testmanagerd[55698:3282945] AX Notification 4002
+13:56:56.065 testmanagerd[55698:3284695] Starting to monitor com.example.apple-samplecode.UIKitCatalog
+13:56:56.066 XCTRunner[55959:3284759] Got AX notification 4002
+13:56:56.068 testmanagerd[55698:3284695] Got application state update: com.example.apple-samplecode.UIKitCatalog (0) -> 1
+13:56:56.069 XCTRunner[55959:3284759] testmanagerd reported update to com.example.apple-samplecode.UIKitCatalog, pid: 0, BKSApplicationState: 1
+13:56:56.065 testmanagerd[55698:3282945] Got user testing notification with payload {
+    controllerClass = SBAppContainerViewController;
+    event = ViewDidDisappear;
+}
+13:56:56.104 XCTRunner[55959:3284741] Got AX notification 1021
+13:56:56.104 XCTRunner[55959:3284741] Got kAXPidStatusChangedNotification for 55959: suspended
+13:56:56.105 XCTRunner[55959:3284225] <XCUIApplicationImpl: 0x600000426980 com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app> changing currentProcess from (null) to <XCUIApplicationProcess: 0x6000000b6980 (null) (0)>
+13:56:56.106 XCTRunner[55959:3284759] <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (0)> application state XCApplicationStateUnknown (0) -> XCApplicationStateNotRunning (1)
+13:56:56.103 testmanagerd[55698:3282945] AX Notification 1021
+13:56:56.108 XCTRunner[55959:3284741] Got AX notification 4002
+13:56:56.106 XCTRunner[55959:3284225] Done setting pid for <XCUIApplicationImpl: 0x600000426980 com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app> to 0
+13:56:56.109 XCTRunner[55959:3284225] App state updated for <XCUIApplicationImpl: 0x600000426980 com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app>: XCApplicationStateNotRunning (1)
+13:56:56.104 testmanagerd[55698:3282945] AX Notification 4002
+13:56:56.108 testmanagerd[55698:3282945] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+13:56:56.110 XCTRunner[55959:3284225] No application process found matching pid 55959, caching
+13:56:56.158 XCTRunner[55959:3284225] Finished loading test suite, took 0.263s
+13:56:56.159 XCTRunner[55959:3284225] -[_XCTestDriverTestObserver testBundleWillStart:]
+13:56:56.159 XCTRunner[55959:3284225] Running suite...
+13:56:56.160 XCTRunner[55959:3284225] -[_XCTestDriverTestObserver testSuiteWillStart:]
+2016-12-10 13:56:38.188 XCTRunner[55959:3284225] Running tests...
+2016-12-10 13:56:54.490 XCTRunner[55959:3284225] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2016-12-10 13:56:56.160
+13:56:56.164 xcodebuild[55660:3284705] (LOG ARBITER) Rotating message buffer with 1 messages.
+13:56:59.164 xcodebuild[55660:3284705] (LOG ARBITER) Rotating message buffer with 98 messages.
+13:57:02.163 xcodebuild[55660:3283710] (LOG ARBITER) Rotating message buffer with 44 messages.
+13:57:08.483 xcodebuild[55660:3284761] (LOG ARBITER) Rotating message buffer with 173 messages.
+13:57:11.163 xcodebuild[55660:3283710] (LOG ARBITER) Rotating message buffer with 203 messages.
+13:57:14.163 xcodebuild[55660:3284841] (LOG ARBITER) Rotating message buffer with 279 messages.
+13:57:17.163 xcodebuild[55660:3283710] (LOG ARBITER) Rotating message buffer with 580 messages.
+13:57:18.141 xcodebuild[55660:3283710] (LOG ARBITER) Dumping buffered message data; 1378 messages.
+13:57:17.142 XCTRunner[55959:3284225] -[UIKitCatalogUITests testButtons] started activity <XCActivityRecord: 0x6000000bbcc0> 2016-12-10 21:57:17 +0000: Wait for app to idle
+13:57:17.163 xcodebuild[55660:3281999] -[UIKitCatalogUITest.UIKitCatalogUITests testButtons] will start activity 76E5A4B6-DCEC-4452-A815-0568BC73BDCC:'Wait for app to idle'
+13:57:17.127 testmanagerd[55698:3284713] Gesture complete, replying to client.
+13:57:17.144 testmanagerd[55698:3284957] -[XCTestManager allowUITestControlForPID:] 55959 vs 55959
+13:57:17.145 testmanagerd[55698:3284957] Getting screenshot
+13:57:17.307 testmanagerd[55698:3284957] systemUIOrientation <AXUIElement 0x7fe02ec1bfe0> {pid=55686}[kAXApplicationOrientationAttribute]: AXError:0 1
+13:57:17.309 testmanagerd[55698:3284957] Got screenshot, rotating to system UI orientation 1
+13:57:17.354 testmanagerd[55698:3284957] Replying with data 0x7fe02ec2d0f0 (113502 bytes), error (null)
+13:57:17.356 XCTRunner[55959:3284225] Waiting for app quiescence...
+13:57:17.356 XCTRunner[55959:3284741] <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)> eventLoopHasIdled 1 -> 0
+13:57:17.357 XCTRunner[55959:3284741] <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)> hasReceivedEventLoopHasIdled 1 -> 0
+13:57:17.358 testmanagerd[55698:3284910] -[XCTestManager allowUITestControlForPID:] 55959 vs 55959
+13:57:17.357 XCTRunner[55959:3284741] <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)> animationsHaveFinished 1 -> 0
+13:57:17.357 XCTRunner[55959:3284741] <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)> hasReceivedAnimationsHaveFinished 1 -> 0
+13:57:17.358 XCTRunner[55959:3284225] Waiting on quiescence state variables
+13:57:17.358 testmanagerd[55698:3284910] Got AXElement for <XCAccessibilityElement: 0x7fe02ed15980> Device element: <AXUIElement 0x7fe02ed3af40> {pid=55986}
+13:57:17.360 testmanagerd[55698:3284910] Performed AXAction 2043 for pid 55986
+13:57:17.361 testmanagerd[55698:3284910] -[XCTestManager allowUITestControlForPID:] 55959 vs 55959
+13:57:17.362 testmanagerd[55698:3284910] Got AXElement for <XCAccessibilityElement: 0x7fe02ec2c3f0> Device element: <AXUIElement 0x7fe02ec46590> {pid=55986}
+13:57:17.363 testmanagerd[55698:3284910] Performed AXAction 2042 for pid 55986
+13:57:17.371 XCTRunner[55959:3284759] Got AX notification 4002
+13:57:17.372 XCTRunner[55959:3284759] Got event loop idle reply.
+13:57:17.372 XCTRunner[55959:3284759] Event loop is idle.
+13:57:17.372 XCTRunner[55959:3284696] <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)> hasReceivedEventLoopHasIdled 0 -> 1
+13:57:17.372 XCTRunner[55959:3284696] <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)> eventLoopHasIdled 0 -> 1
+13:57:17.364 testmanagerd[55698:3282945] AX Notification 4002
+13:57:17.373 testmanagerd[55698:3282945] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+13:57:17.777 XCTRunner[55959:3284696] Got AX notification 4002
+13:57:17.766 testmanagerd[55698:3282945] AX Notification 4002
+13:57:17.778 testmanagerd[55698:3282945] Got user testing notification with payload {
+    controllerClass = UINavigationController;
+    event = ViewDidDisappear;
+    navigationItemTitle = Buttons;
+}
+13:57:17.785 XCTRunner[55959:3284696] Got AX notification 4002
+13:57:17.782 testmanagerd[55698:3282945] AX Notification 4002
+13:57:17.786 testmanagerd[55698:3282945] Got user testing notification with payload {
+    controllerClass = "UIKitCatalog.ButtonViewController";
+    event = ViewDidDisappear;
+    navigationItemTitle = Buttons;
+}
+13:57:17.788 testmanagerd[55698:3282945] AX Notification 1000
+13:57:17.792 XCTRunner[55959:3284696] Got AX notification 4002
+13:57:17.790 testmanagerd[55698:3282945] AX Notification 4002
+13:57:17.793 testmanagerd[55698:3282945] Got user testing notification with payload {
+    controllerClass = UITableViewController;
+    event = ViewDidAppear;
+    navigationItemTitle = UIKitCatalog;
+}
+13:57:17.795 testmanagerd[55698:3282945] AX Notification 1000
+13:57:17.799 XCTRunner[55959:3284759] Got AX notification 4002
+13:57:17.800 XCTRunner[55959:3284759] Got animations reply.
+13:57:17.800 XCTRunner[55959:3284759] Animations are not active.
+13:57:17.800 XCTRunner[55959:3284696] <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)> hasReceivedAnimationsHaveFinished 0 -> 1
+13:57:17.801 XCTRunner[55959:3284696] <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)> animationsHaveFinished 0 -> 1
+13:57:17.801 XCTRunner[55959:3284225] Waiting on quiescence reply indicators
+13:57:17.801 XCTRunner[55959:3284225] App has quiesced or quiescence timeout has elapsed.
+13:57:17.802 XCTRunner[55959:3284225] -[UIKitCatalogUITests testButtons] finished activity <XCActivityRecord: 0x6000000bbcc0> 2016-12-10 21:57:17 +0000: Wait for app to idle (0.659483s)
+13:57:17.804 xcodebuild[55660:3281999] -[UIKitCatalogUITest.UIKitCatalogUITests testButtons] did finish activity 76E5A4B6-DCEC-4452-A815-0568BC73BDCC:'Wait for app to idle'
+13:57:17.803 XCTRunner[55959:3284225] -[UIKitCatalogUITests testButtons] finished activity <XCActivityRecord: 0x6080000bbfc0> 2016-12-10 21:57:16 +0000: Tap "UIKitCatalog" Button (1.62471s)
+13:57:17.807 xcodebuild[55660:3281999] -[UIKitCatalogUITest.UIKitCatalogUITests testButtons] did finish activity 5D0C12CE-65A6-462F-8FE5-E0390CC45A66:'Tap "UIKitCatalog" Button'
+13:57:17.805 XCTRunner[55959:3284225] -[UIKitCatalogUITests testButtons] started activity <XCActivityRecord: 0x6080000bc500> 2016-12-10 21:57:17 +0000: Tear Down
+13:57:17.807 xcodebuild[55660:3281999] -[UIKitCatalogUITest.UIKitCatalogUITests testButtons] will start activity 8EA925EE-C625-4ED7-B8F7-B81B542F9B7E:'Tear Down'
+13:57:17.806 XCTRunner[55959:3284225] -[UIKitCatalogUITests testButtons] finished activity <XCActivityRecord: 0x6080000bc500> 2016-12-10 21:57:17 +0000: Tear Down (0.000896037s)
+13:57:17.808 xcodebuild[55660:3281999] -[UIKitCatalogUITest.UIKitCatalogUITests testButtons] did finish activity 8EA925EE-C625-4ED7-B8F7-B81B542F9B7E:'Tear Down'
+13:57:17.808 XCTRunner[55959:3284696] Monitor: termination is being tracked for <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)>
+13:57:17.808 XCTRunner[55959:3284225] Monitor: waiting for state changes to launched application(s): <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)>
+13:57:17.809 XCTRunner[55959:3284225] <XCTestExpectationWaiter: 0x600000202af0> waiting 0.20s
+13:57:17.809 XCTRunner[55959:3284225] <XCTestExpectationWaiter: 0x600000202af0>: primitiveWait spinning run loop for 0.10s
+13:57:17.797 testmanagerd[55698:3282945] AX Notification 4002
+13:57:17.810 testmanagerd[55698:3282945] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+13:57:17.974 XCTRunner[55959:3284225] <XCTestExpectationWaiter: 0x600000202af0>: primitiveWait woke from run loop
+13:57:17.975 XCTRunner[55959:3284225] <XCTestExpectationWaiter: 0x600000202af0> waiting 0.03s
+13:57:17.975 XCTRunner[55959:3284225] <XCTestExpectationWaiter: 0x600000202af0>: primitiveWait spinning run loop for 0.10s
+13:57:18.138 XCTRunner[55959:3284225] <XCTestExpectationWaiter: 0x600000202af0>: primitiveWait woke from run loop
+13:57:18.138 XCTRunner[55959:3284225] <XCTestExpectationWaiter: 0x600000202af0> done waiting
+13:57:18.139 XCTRunner[55959:3284225] <XCTestExpectationWaiter: 0x600000202af0> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6000000b6980 com.example.apple-samplecode.UIKitCatalog (55986)>
+13:57:18.139 XCTRunner[55959:3284225] Monitor: done waiting for state changes to launched application(s)
+    t =     0.01s     Start Test at 2016-12-10 13:56:56.186
+    t =     0.01s     Set Up
+    t =     0.05s         Launch com.example.apple-samplecode.UIKitCatalog
+    t =     4.60s             Waiting for accessibility to load
+    t =    10.30s             Wait for app to idle
+    t =    11.90s     Tap "UIKitCatalog" Button
+    t =    11.90s         Wait for app to idle
+    t =    12.09s         Find the "UIKitCatalog" Button
+    t =    12.09s             Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    12.33s             Find: Descendants matching type NavigationBar
+    t =    12.33s             Find: Elements matching predicate '"UIView" IN identifiers'
+    t =    12.33s             Find: Descendants matching type Button
+    t =    12.33s             Find: Elements matching predicate '"UIKitCatalog" IN identifiers'
+    t =    12.37s             Wait for app to idle
+    t =    12.53s         Synthesize event
+    t =    12.96s         Wait for app to idle
+    t =    14.92s     Tap "Buttons" StaticText
+    t =    14.92s         Wait for app to idle
+    t =    15.76s         Find the "Buttons" StaticText
+    t =    15.76s             Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    16.06s             Find: Descendants matching type Table
+    t =    16.07s             Find: Descendants matching type StaticText
+    t =    16.08s             Find: Elements matching predicate '"Buttons" IN identifiers'
+    t =    16.12s             Wait for app to idle
+    t =    16.27s         Synthesize event
+    t =    16.66s         Wait for app to idle
+    t =    18.20s     Get number of matches for: Children matching type Other
+    t =    18.31s         Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    18.50s         Find: Descendants matching type StatusBar
+    t =    18.51s         Find: Children matching type Other
+    t =    18.51s         Find: Element at index 1
+    t =    18.51s         Find: Children matching type Other
+    t =    18.52s     Find the Other
+    t =    18.52s         Use cached accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    18.53s         Find: Descendants matching type StatusBar
+    t =    18.55s         Find: Children matching type Other
+    t =    18.56s         Find: Element at index 1
+    t =    18.57s         Find: Children matching type Other
+    t =    18.57s         Find: Element at index 0
+    t =    18.58s     Find the Other
+    t =    18.58s         Use cached accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    18.59s         Find: Descendants matching type StatusBar
+    t =    18.59s         Find: Children matching type Other
+    t =    18.59s         Find: Element at index 1
+    t =    18.60s         Find: Children matching type Other
+    t =    18.60s         Find: Element at index 1
+    t =    18.62s     Find the Other
+    t =    18.62s         Use cached accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    18.63s         Find: Descendants matching type StatusBar
+    t =    18.64s         Find: Children matching type Other
+    t =    18.64s         Find: Element at index 1
+    t =    18.64s         Find: Children matching type Other
+    t =    18.65s         Find: Element at index 2
+    t =    18.65s     Find the Other
+    t =    18.65s         Use cached accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    18.68s         Find: Descendants matching type StatusBar
+    t =    18.68s         Find: Children matching type Other
+    t =    18.69s         Find: Element at index 1
+    t =    18.69s         Find: Children matching type Other
+    t =    18.69s         Find: Element at index 3
+snapshot: 1ButtonCatalogScreen
+    t =    19.78s     Set device orientation to Unknown
+    t =    19.86s     Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    19.99s     Find: Descendants matching type Button
+    t =    20.00s     Find: Elements matching predicate '"Button" IN identifiers'
+    t =    20.00s     Tap "UIKitCatalog" Button
+    t =    20.00s         Wait for app to idle
+    t =    20.29s         Find the "UIKitCatalog" Button
+    t =    20.29s             Snapshot accessibility hierarchy for com.example.apple-samplecode.UIKitCatalog
+    t =    20.46s             Find: Descendants matching type NavigationBar
+    t =    20.46s             Find: Elements matching predicate '"Buttons" IN identifiers'
+    t =    20.47s             Find: Descendants matching type Button
+    t =    20.47s             Find: Elements matching predicate '"UIKitCatalog" IN identifiers'
+    t =    20.50s             Wait for app to idle
+    t =    20.61s         Synthesize event
+    t =    20.96s         Wait for app to idle
+    t =    21.62s     Tear Down
+Test Case '-[UIKitCatalogUITest.UIKitCatalogUITests testButtons]' passed (21.959 seconds).
+13:57:18.140 XCTRunner[55959:3284225] -[_XCTestDriverTestObserver testCaseDidFinish:]
+13:57:18.141 xcodebuild[55660:3281999] _XCT_testCaseDidFinishForTestClass:UIKitCatalogUITest.UIKitCatalogUITests method:testButtons withStatus:passed duration:21.95867103338242
+Test Suite 'UIKitCatalogUITests' passed at 2016-12-10 13:57:18.141.
+	 Executed 1 test, with 0 failures (0 unexpected) in 21.959 (21.964) seconds
+13:57:18.142 XCTRunner[55959:3284225] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+13:57:18.144 xcodebuild[55660:3281999] _XCT_testSuite:UIKitCatalogUITests didFinishAt:2016-12-10 21:57:18 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:21.95867103338242 totalDuration:21.96385198831558
+Test Suite 'UIKitCatalogUITest.xctest' passed at 2016-12-10 13:57:18.143.
+	 Executed 1 test, with 0 failures (0 unexpected) in 21.959 (21.979) seconds
+13:57:18.144 XCTRunner[55959:3284225] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+13:57:18.146 xcodebuild[55660:3281999] _XCT_testSuite:UIKitCatalogUITest.xctest didFinishAt:2016-12-10 21:57:18 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:21.95867103338242 totalDuration:21.97934001684189
+Test Suite 'All tests' passed at 2016-12-10 13:57:18.145.
+	 Executed 1 test, with 0 failures (0 unexpected) in 21.959 (21.985) seconds
+13:57:18.146 XCTRunner[55959:3284225] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+13:57:18.147 xcodebuild[55660:3281999] _XCT_testSuite:All tests didFinishAt:2016-12-10 21:57:18 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:21.95867103338242 totalDuration:21.98535001277924
+13:57:18.147 XCTRunner[55959:3284225] Finished running suite.
+13:57:18.147 XCTRunner[55959:3284225] -[_XCTestDriverTestObserver testBundleDidFinish:], Flushing connection to IDE...
+13:57:18.149 xcodebuild[55660:3281999] -[IDETestOperationCoordinator _XCT_didFinishExecutingTestPlan]
+13:57:18.149 xcodebuild[55660:3281999] <IDEExecutionOperationTracker: 0x7fc78a7b6080: Launch application com.example.apple-samplecode.UIKitCatalog for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fc78a8ebbe0: subtrackers=none>"
+)> is not finished
+13:57:18.150 xcodebuild[55660:3281999] Observed termination of tracker for token 1 for launch of com.example.apple-samplecode.UIKitCatalog at /Users/mumpiko/dev/XCUITest/XCUITest-demo/output/Build/Products/Debug-iphonesimulator/UIKitCatalog.app
+13:57:18.151 xcodebuild[55660:3281999] _finishWithError:(null) didCancel: 0

@@ -21,3 +21,8 @@ or
     [14:52:01]: Successfully created HTML file with an overview of all the screenshots: '/Users/mk/dev/XCUITest/XCUITest-demo/screenshots/screenshots.html'
 
     /Users/mk/dev/XCUITest/XCUITest-demo/screenshots/screenshots.html
+
+## Jenkins troubleshoting notes for myself
+
+When running the xcodebuild command, I ended up with PCH error. Resolved this error by running the commands in http://stackoverflow.com/questions/15463179/how-to-fix-pch-error
+

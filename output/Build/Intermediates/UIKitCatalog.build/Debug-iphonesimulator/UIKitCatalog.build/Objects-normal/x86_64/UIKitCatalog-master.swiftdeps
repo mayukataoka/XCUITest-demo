@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
 options: "4ffc9d6052af12c138ae497436519857"
-build_time: [534066451, 275374000]
+build_time: [534722139, 410823000]
 inputs:
   "/Users/mumpiko/dev/XCUITest/XCUITest-demo/UIKitCatalog/PickerViewController.swift": [532127034, 0]
   "/Users/mumpiko/dev/XCUITest/XCUITest-demo/UIKitCatalog/SearchResultsViewController.swift": [532127034, 0]

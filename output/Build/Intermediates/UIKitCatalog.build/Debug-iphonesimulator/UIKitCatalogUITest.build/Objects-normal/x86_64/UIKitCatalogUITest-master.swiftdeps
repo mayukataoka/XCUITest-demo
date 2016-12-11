@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "d24f6f9ac2b5cbaf98ddde43d70e07d0"
+build_time: [534722181, 80807000]
+inputs:
+  "/Users/mumpiko/dev/XCUITest/XCUITest-demo/UIKitCatalogUITest/UIKitCatalogUITest.swift": [534073302, 0]
+  "/Users/mumpiko/dev/XCUITest/XCUITest-demo/UIKitCatalogUITest/UIKitCatalogUITestBase.swift": [534073302, 0]
+  "/Users/mumpiko/dev/XCUITest/XCUITest-demo/UIKitCatalogUITest/SnapshotHelper.swift": [534073302, 0]

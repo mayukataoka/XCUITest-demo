@@ -1,0 +1,346 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UIKitCatalogUITests"
+provides-nominal:
+- "C18UIKitCatalogUITest19UIKitCatalogUITests"
+provides-member:
+- ["C18UIKitCatalogUITest19UIKitCatalogUITests", ""]
+provides-dynamic-lookup:
+- "buttonLinkInTable"
+- "testButtons"
+- "ukKitCatakogInButtonInNavigationBar"
+depends-top-level:
+- "XCUIApplication"
+- "UIKitCatalogUITestBase"
+- "StringLiteralType"
+- "UIKitCatalogUITests"
+- !private "XCTAssert"
+- !private "snapshot"
+depends-member:
+- !private ["Ps9AnyObject", "XCTAssert"]
+- ["Ps9AnyObject", "XCUIApplication"]
+- ["Ps9AnyObject", "buttonLinkInTable"]
+- ["Ps9AnyObject", "buttons"]
+- !private ["Ps9AnyObject", "exists"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "navigationBars"]
+- !private ["Ps9AnyObject", "openUIKitCatalog"]
+- !private ["Ps9AnyObject", "snapshot"]
+- ["Ps9AnyObject", "staticTexts"]
+- ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", "tables"]
+- !private ["Ps9AnyObject", "tap"]
+- ["Ps9AnyObject", "testButtons"]
+- ["Ps9AnyObject", "ukKitCatakogInButtonInNavigationBar"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "XCTAssert"]
+- ["Ps7CVarArg", "XCUIApplication"]
+- ["Ps7CVarArg", "buttonLinkInTable"]
+- ["Ps7CVarArg", "buttons"]
+- !private ["Ps7CVarArg", "exists"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "navigationBars"]
+- !private ["Ps7CVarArg", "openUIKitCatalog"]
+- !private ["Ps7CVarArg", "snapshot"]
+- ["Ps7CVarArg", "staticTexts"]
+- ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "tables"]
+- !private ["Ps7CVarArg", "tap"]
+- ["Ps7CVarArg", "testButtons"]
+- ["Ps7CVarArg", "ukKitCatakogInButtonInNavigationBar"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssert"]
+- ["Ps28CustomDebugStringConvertible", "XCUIApplication"]
+- ["Ps28CustomDebugStringConvertible", "buttonLinkInTable"]
+- ["Ps28CustomDebugStringConvertible", "buttons"]
+- !private ["Ps28CustomDebugStringConvertible", "exists"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "navigationBars"]
+- !private ["Ps28CustomDebugStringConvertible", "openUIKitCatalog"]
+- !private ["Ps28CustomDebugStringConvertible", "snapshot"]
+- ["Ps28CustomDebugStringConvertible", "staticTexts"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "tables"]
+- !private ["Ps28CustomDebugStringConvertible", "tap"]
+- ["Ps28CustomDebugStringConvertible", "testButtons"]
+- ["Ps28CustomDebugStringConvertible", "ukKitCatakogInButtonInNavigationBar"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "XCTAssert"]
+- ["Ps23CustomStringConvertible", "XCUIApplication"]
+- ["Ps23CustomStringConvertible", "buttonLinkInTable"]
+- ["Ps23CustomStringConvertible", "buttons"]
+- !private ["Ps23CustomStringConvertible", "exists"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "navigationBars"]
+- !private ["Ps23CustomStringConvertible", "openUIKitCatalog"]
+- !private ["Ps23CustomStringConvertible", "snapshot"]
+- ["Ps23CustomStringConvertible", "staticTexts"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "tables"]
+- !private ["Ps23CustomStringConvertible", "tap"]
+- ["Ps23CustomStringConvertible", "testButtons"]
+- ["Ps23CustomStringConvertible", "ukKitCatakogInButtonInNavigationBar"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "XCTAssert"]
+- ["Ps9Equatable", "XCUIApplication"]
+- ["Ps9Equatable", "buttonLinkInTable"]
+- ["Ps9Equatable", "buttons"]
+- !private ["Ps9Equatable", "exists"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "navigationBars"]
+- !private ["Ps9Equatable", "openUIKitCatalog"]
+- !private ["Ps9Equatable", "snapshot"]
+- ["Ps9Equatable", "staticTexts"]
+- ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", "tables"]
+- !private ["Ps9Equatable", "tap"]
+- ["Ps9Equatable", "testButtons"]
+- ["Ps9Equatable", "ukKitCatakogInButtonInNavigationBar"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "XCTAssert"]
+- ["Ps8Hashable", "XCUIApplication"]
+- ["Ps8Hashable", "buttonLinkInTable"]
+- ["Ps8Hashable", "buttons"]
+- !private ["Ps8Hashable", "exists"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "navigationBars"]
+- !private ["Ps8Hashable", "openUIKitCatalog"]
+- !private ["Ps8Hashable", "snapshot"]
+- ["Ps8Hashable", "staticTexts"]
+- ["Ps8Hashable", "subscript"]
+- ["Ps8Hashable", "tables"]
+- !private ["Ps8Hashable", "tap"]
+- ["Ps8Hashable", "testButtons"]
+- ["Ps8Hashable", "ukKitCatakogInButtonInNavigationBar"]
+- ["Ps8Hashable", ""]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "XCTAssert"]
+- ["CSo8NSObject", "XCUIApplication"]
+- ["CSo8NSObject", "buttonLinkInTable"]
+- ["CSo8NSObject", "buttons"]
+- !private ["CSo8NSObject", "exists"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "navigationBars"]
+- !private ["CSo8NSObject", "openUIKitCatalog"]
+- !private ["CSo8NSObject", "snapshot"]
+- ["CSo8NSObject", "staticTexts"]
+- ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "tables"]
+- !private ["CSo8NSObject", "tap"]
+- ["CSo8NSObject", "testButtons"]
+- ["CSo8NSObject", "ukKitCatakogInButtonInNavigationBar"]
+- !private ["PSo16NSObjectProtocol", "XCTAssert"]
+- ["PSo16NSObjectProtocol", "XCUIApplication"]
+- ["PSo16NSObjectProtocol", "buttonLinkInTable"]
+- ["PSo16NSObjectProtocol", "buttons"]
+- !private ["PSo16NSObjectProtocol", "exists"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "navigationBars"]
+- !private ["PSo16NSObjectProtocol", "openUIKitCatalog"]
+- !private ["PSo16NSObjectProtocol", "snapshot"]
+- ["PSo16NSObjectProtocol", "staticTexts"]
+- ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", "tables"]
+- !private ["PSo16NSObjectProtocol", "tap"]
+- ["PSo16NSObjectProtocol", "testButtons"]
+- ["PSo16NSObjectProtocol", "ukKitCatakogInButtonInNavigationBar"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", "XCTAssert"]
+- ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", "XCUIApplication"]
+- ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", "buttonLinkInTable"]
+- ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", "deinit"]
+- ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", "init"]
+- !private ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", "openUIKitCatalog"]
+- !private ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", "snapshot"]
+- ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", "testButtons"]
+- ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", "ukKitCatakogInButtonInNavigationBar"]
+- ["C18UIKitCatalogUITest22UIKitCatalogUITestBase", ""]
+- !private ["C18UIKitCatalogUITest19UIKitCatalogUITests", "XCTAssert"]
+- ["C18UIKitCatalogUITest19UIKitCatalogUITests", "XCUIApplication"]
+- ["C18UIKitCatalogUITest19UIKitCatalogUITests", "buttonLinkInTable"]
+- ["C18UIKitCatalogUITest19UIKitCatalogUITests", "deinit"]
+- ["C18UIKitCatalogUITest19UIKitCatalogUITests", "init"]
+- !private ["C18UIKitCatalogUITest19UIKitCatalogUITests", "openUIKitCatalog"]
+- !private ["C18UIKitCatalogUITest19UIKitCatalogUITests", "snapshot"]
+- ["C18UIKitCatalogUITest19UIKitCatalogUITests", "testButtons"]
+- ["C18UIKitCatalogUITest19UIKitCatalogUITests", "ukKitCatakogInButtonInNavigationBar"]
+- ["Su", "deinit"]
+- !private ["CSo6XCTest", "XCTAssert"]
+- ["CSo6XCTest", "XCUIApplication"]
+- ["CSo6XCTest", "buttonLinkInTable"]
+- ["CSo6XCTest", "init"]
+- !private ["CSo6XCTest", "openUIKitCatalog"]
+- !private ["CSo6XCTest", "snapshot"]
+- ["CSo6XCTest", "testButtons"]
+- ["CSo6XCTest", "ukKitCatakogInButtonInNavigationBar"]
+- !private ["CSo10XCTestCase", "XCTAssert"]
+- ["CSo10XCTestCase", "XCUIApplication"]
+- ["CSo10XCTestCase", "buttonLinkInTable"]
+- ["CSo10XCTestCase", "init"]
+- !private ["CSo10XCTestCase", "openUIKitCatalog"]
+- !private ["CSo10XCTestCase", "snapshot"]
+- ["CSo10XCTestCase", "testButtons"]
+- ["CSo10XCTestCase", "ukKitCatakogInButtonInNavigationBar"]
+- !private ["CSo15XCUIApplication", "buttons"]
+- ["CSo15XCUIApplication", "deinit"]
+- ["CSo15XCUIApplication", "init"]
+- ["CSo15XCUIApplication", "navigationBars"]
+- ["CSo15XCUIApplication", "tables"]
+- ["CSo11XCUIElement", "buttons"]
+- ["CSo11XCUIElement", "deinit"]
+- !private ["CSo11XCUIElement", "exists"]
+- ["CSo11XCUIElement", "init"]
+- ["CSo11XCUIElement", "navigationBars"]
+- ["CSo11XCUIElement", "tables"]
+- !private ["CSo11XCUIElement", "tap"]
+- ["PSo21XCUIElementAttributes", "buttons"]
+- !private ["PSo21XCUIElementAttributes", "exists"]
+- ["PSo21XCUIElementAttributes", "init"]
+- ["PSo21XCUIElementAttributes", "navigationBars"]
+- ["PSo21XCUIElementAttributes", "tables"]
+- !private ["PSo21XCUIElementAttributes", "tap"]
+- ["CSo16XCUIElementQuery", "deinit"]
+- ["CSo16XCUIElementQuery", "staticTexts"]
+- ["CSo16XCUIElementQuery", "subscript"]
+- ["PSo28XCUIElementTypeQueryProvider", "buttons"]
+- !private ["PSo28XCUIElementTypeQueryProvider", "exists"]
+- ["PSo28XCUIElementTypeQueryProvider", "init"]
+- ["PSo28XCUIElementTypeQueryProvider", "navigationBars"]
+- ["PSo28XCUIElementTypeQueryProvider", "staticTexts"]
+- ["PSo28XCUIElementTypeQueryProvider", "subscript"]
+- ["PSo28XCUIElementTypeQueryProvider", "tables"]
+- !private ["PSo28XCUIElementTypeQueryProvider", "tap"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "XCTAssert"]
+- ["Ps9_Hashable", "XCUIApplication"]
+- ["Ps9_Hashable", "buttonLinkInTable"]
+- ["Ps9_Hashable", "buttons"]
+- !private ["Ps9_Hashable", "exists"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "navigationBars"]
+- !private ["Ps9_Hashable", "openUIKitCatalog"]
+- !private ["Ps9_Hashable", "snapshot"]
+- ["Ps9_Hashable", "staticTexts"]
+- ["Ps9_Hashable", "subscript"]
+- ["Ps9_Hashable", "tables"]
+- !private ["Ps9_Hashable", "tap"]
+- ["Ps9_Hashable", "testButtons"]
+- ["Ps9_Hashable", "ukKitCatakogInButtonInNavigationBar"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- "V10ObjectiveC8Selector"
+- "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C18UIKitCatalogUITest22UIKitCatalogUITestBase"
+- "C18UIKitCatalogUITest19UIKitCatalogUITests"
+- "Su"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- "CSo15XCUIApplication"
+- "CSo11XCUIElement"
+- "PSo21XCUIElementAttributes"
+- "CSo16XCUIElementQuery"
+- "PSo28XCUIElementTypeQueryProvider"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "6354168bf3c02efbf69a113991e34ffe"
