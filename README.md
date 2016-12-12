@@ -11,18 +11,21 @@ or
     snapshot --stop_after_first_err
 
 
-## Here is the output from the test execution
+## Output from the test execution
 
 <img src="assets/testSummary.png" width="500">
 
-## Here is the location of HTML file with an overview of all the screenshots
-
-    [14:52:01]: Generating HTML Report
-    [14:52:01]: Successfully created HTML file with an overview of all the screenshots: '/Users/mk/dev/XCUITest/XCUITest-demo/screenshots/screenshots.html'
+## Location of HTML file with an overview of all the screenshots
 
     /Users/mk/dev/XCUITest/XCUITest-demo/screenshots/screenshots.html
 
-## Jenkins troubleshoting notes for myself
+## Jenkins execution against Amazon Device Farm
 
-When running the xcodebuild command, I ended up with PCH error. Resolved this error by running the commands in http://stackoverflow.com/questions/15463179/how-to-fix-pch-error
+<img src="assets/deviceFarm-jenkins-test-result.png" width="800">
+
+## Jenkins Amazon Device Farm configurations
+
+<img src="assets/deviceFarm-jenkins-config1.png" width="800">
+<img src="assets/deviceFarm-jenkins-config2.png" width="800">
+
 
