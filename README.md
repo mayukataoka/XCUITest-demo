@@ -28,4 +28,11 @@ or
 <img src="assets/deviceFarm-jenkins-config1.png" width="800">
 <img src="assets/deviceFarm-jenkins-config2.png" width="800">
 
+The ipa files can be passed to the test Jenkins job through the Jenkins' Copy Artifact Plugin. To see how to create Test Runner ipa, take a look at https://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-ios-xctest-ui.html.
+
+## Test Runner .ipa
+
+https://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-ios-xctest-ui.html
+
+Before you upload iOS XCTest UI tests to Device Farm for testing, make sure that your iOS XCTest UI test runner bundle is contained within a properly formatted .ipa file. To create an .ipa file, you can place your my-project-nameUITest-Runner.app bundle in an empty Payload directory. Next, archive the Payload directory into a .zip file and then change the file extension to .ipa. The *UITest-Runner.app bundle is produced by Xcode when you build your project for testing, and it can be found in the Products directory for your project.
 
