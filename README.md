@@ -1,6 +1,6 @@
 ## What is Fastlane Snapshot
 
-Snapshot generates localized iOS and tvOS screenshots for different device types and languages
+Snapshot generates localized iOS and tvOS screenshots for different device types and languages. To set up a list of devices you want to take the screenshots from, please look at my Snapfile as a reference - https://github.com/mayukataoka/XCUITest-demo/blob/master/Snapfile. 
 
 ## How to run the XCUITest test without Fastlane Snapshot
 
