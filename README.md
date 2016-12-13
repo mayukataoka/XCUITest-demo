@@ -31,7 +31,7 @@ AWS Device Farm is an app testing service that lets you test and interact with y
 
 <img src="assets/deviceFarm-jenkins-test-result.png" width="800">
 
-## My AWS Device Farm configurations on my local Jenkins
+## My Jenkins configurations for AWS Device Farm
 
 <img src="assets/deviceFarm-jenkins-config1.png" width="800">
 <img src="assets/deviceFarm-jenkins-config2.png" width="800">
