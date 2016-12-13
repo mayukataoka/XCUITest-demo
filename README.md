@@ -1,3 +1,7 @@
+## What is Fastlane Snapshot
+
+Snapshot generates localized iOS and tvOS screenshots for different device types and languages
+
 ## How to run the XCUITest test without Fastlane Snapshot
 
     xcodebuild -workspace UIKitCatalog.xcworkspace -scheme "UIKitCatalogUITests" -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.1' -derivedDataPath './output' test
