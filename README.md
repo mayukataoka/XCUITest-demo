@@ -23,6 +23,10 @@ or
 
     /Users/mk/dev/XCUITest/XCUITest-demo/screenshots/screenshots.html
 
+## What is Amazon Device Farm
+
+AWS Device Farm is an app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once
+
 ## My Jenkins execution against Amazon Device Farm
 
 <img src="assets/deviceFarm-jenkins-test-result.png" width="800">
