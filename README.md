@@ -30,7 +30,7 @@ or
 
 The ipa files can be passed to the test Jenkins job through the Jenkins' Copy Artifact Plugin. To see how to create Test Runner ipa, take a look at https://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-ios-xctest-ui.html.
 
-## Web test report from AWS Device Farm
+## My web test report from AWS Device Farm
 
 <img src="assets/deviceFarm-web-report.png" width="800">
 
